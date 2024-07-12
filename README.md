@@ -43,7 +43,7 @@ To enhance the performance of LLM-based agents in the domain-specific area of UI
 ### Using AUITestAgent in Meituan 
 #### Task: View the rating of the first scenic spot in the scenic view, check whether its rating is consistent
 
-todo: video
+![demo1_video](assets/demo1.mp4)
 
 ![demo1](assets/demo1.png)
 
@@ -51,7 +51,7 @@ todo: video
 ### Using AUITestAgent in Facebook
 #### Task: Send a post with content 'Hello everyone' and like it, check whether it is correctly displayed, and whether the like button turns blue
 
-todo: video
+![demo2_video](assets/demo2.mp4)
 
 ![demo2](assets/demo2.png)
 

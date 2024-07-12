@@ -30,7 +30,7 @@
 
 ## 🌟 Introduction
 
-AUITestAgent is the first LLM-based multi-agent framework for automatically perform natural language-driven GUI functional bug testing. It takes test requirements written in natural language as input, generates and conducts UI interactions, and verifies whether the UI response aligns with the expectations outlined in the requirements.
+AUITestAgent is the first automatic, natural language-driven GUI testing tool for mobile apps, capable of fully automating the entire process of GUI interaction and function verification. It takes test requirements written in natural language as input, generates and conducts UI interactions, and verifies whether the UI response aligns with the expectations outlined in the requirements.
 
 ![overview](assets/overview.png)
 
@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/48341d06-bc05-4b71-accd-c8a1c7215834
 ### Using AUITestAgent in Facebook
 #### Task: Send a post with content 'Hello everyone' and like it, check whether it is correctly displayed, and whether the like button turns blue
 
-https://github.com/user-attachments/assets/501cd67e-8277-41c3-952a-3e77daa0c909
+https://github.com/user-attachments/assets/8c0a33ab-11ab-4f95-b767-678472e8d902
 
 ![demo2](assets/demo2.png)
 

@@ -16,10 +16,10 @@ Yongxiang Hu<sup>1</sup>, Xuan Wang<sup>1</sup>, Yingchuan Wang<sup>1</sup>, Yu 
 <sup>3</sup>Shanghai Key Laboratory of Intelligent Information Processing, Shanghai, China
 </div>
 
-<div style="display: flex; justify-content: center; align-items: center;">
+<!-- <div style="display: flex; justify-content: center; align-items: center;">
   <img src="assets/fudan.png" alt="Fudan University Logo" width="100" style="margin-right: 50px"/>
   <img src="assets/meituan.png" alt="Meituan Logo" width="100"/>
-</div>
+</div> -->
 
 ## 🌟 Introduction
 
@@ -40,9 +40,11 @@ todo: video
 ![demo1](assets/demo1.png)
 
 
-<!-- ### Using AUITestAgent in Google Play.
+### Using AUITestAgent in Facebook
 
-todo: video and img -->
+todo: video
+
+![demo2](assets/demo2.png)
 
 
 ## 📝 Evaluation
@@ -52,7 +54,7 @@ We evaluate AUITestAgent’s performance with two customized benchmark, [interac
 Our experiments show that AUITestAgent accurately completes 77% of interaction tasks, **significantly outperforms existing methods in natrual language commands to GUI interactions translation.** Additionally, it can detect 91% of injected GUI functional bugs with a false positive rate of just 3%.
 Furthermore, unseen bugs detected from Meituan show the practical benefits of using AUITestAgent to conduct GUI testing for complex commercial apps.
 
-For detail information, please refer to our [paper]() and [logs](logs/logs.md).
+For detail information, please refer to the [evalution results](evaluation_results/evaluation.md).
 
 ### GUI Interactions translation
 

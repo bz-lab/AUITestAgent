@@ -1,0 +1,921 @@
+2024-07-07 01:09:30 - - - - - 2024-07-07 01:09:30 - Info: Analyst is analysing the task
+2024-07-07 01:09:30 - - - - - 2024-07-07 01:09:35 - Analyst:
+2024-07-07 01:09:35 - - - - - 2024-07-07 01:09:35 - {
+  "result": [
+    "检查保存地址后收货地址的地点是否等于输入的值",
+    "检查保存地址后收货地址的姓名是否等于输入的值"
+  ]
+}
+2024-07-07 01:09:35 - - - - - 2024-07-07 01:09:35 - Info: Analyst is analysing the task
+2024-07-07 01:09:35 - - - - - 2024-07-07 01:09:36 - Analyst:
+2024-07-07 01:09:35 - - - - - 2024-07-07 01:09:36 - {
+    "target": ["The location of the saved delivery address"]
+}
+2024-07-07 01:09:36 - - - - - 2024-07-07 01:09:37 - Info: Observer observes image ./RQ2/12/drive/0_SoM_rule.png
+2024-07-07 01:09:36 - - - - - 2024-07-07 01:09:43 - Observer:
+2024-07-07 01:09:37 - - - - - 2024-07-07 01:09:43 - {
+    "Page Type": "Home page of a commercial platform app with various service options and promotional deals",
+    "Widgets": [0]
+}
+2024-07-07 01:09:37 - - - - - 2024-07-07 01:09:43 - Info: Observer observes image ./RQ2/12/test/Task0.Page0.Widget0.png
+2024-07-07 01:09:37 - - - - - 2024-07-07 01:09:46 - Observer:
+2024-07-07 01:09:43 - - - - - 2024-07-07 01:09:46 - {
+  "name": "Location indicator",
+  "description": "The widget displays a location pin icon followed by the text '互联宝地'. It indicates the location of the saved delivery address. There is also a downward-facing arrow on the right side, suggesting that more options or details can be accessed by interacting with the widget."
+}
+2024-07-07 01:09:43 - - - - - 2024-07-07 01:09:46 - Info: Observer observes image ./RQ2/12/drive/0.png
+2024-07-07 01:09:43 - - - - - 2024-07-07 01:09:55 - Observer:
+2024-07-07 01:09:43 - - - - - 2024-07-07 01:09:55 - {
+    "Page Information": {
+        "The location of the saved delivery address": ["互联宝地"]
+    }
+}
+2024-07-07 01:09:44 - - - - - 2024-07-07 01:09:55 - Info: Observer observes image ./RQ2/12/drive/1_SoM_rule.png
+2024-07-07 01:09:46 - - - - - 2024-07-07 01:10:01 - Observer:
+2024-07-07 01:09:46 - - - - - 2024-07-07 01:10:01 - {
+    "Page Type": "User profile and account management page",
+    "Widgets": []
+}
+2024-07-07 01:09:46 - - - - - 2024-07-07 01:10:01 - Info: Observer observes image ./RQ2/12/drive/1.png
+2024-07-07 01:09:46 - - - - - 2024-07-07 01:10:07 - Observer:
+2024-07-07 01:09:47 - - - - - 2024-07-07 01:10:07 - {
+    "Page Information": {
+        "The location of the saved delivery address": ["invisible"]
+    }
+}
+2024-07-07 01:09:55 - - - - - 2024-07-07 01:10:07 - Info: Observer observes image ./RQ2/12/drive/2_SoM_inspect.png
+2024-07-07 01:09:55 - - - - - 2024-07-07 01:10:12 - Observer:
+2024-07-07 01:09:55 - - - - - 2024-07-07 01:10:12 - {
+    "Page Type": "Settings page for managing various account and app settings",
+    "Widgets": [4]
+}
+2024-07-07 01:09:55 - - - - - 2024-07-07 01:10:12 - Info: Observer observes image ./RQ2/12/test/Task0.Page2.Widget0.png
+2024-07-07 01:09:55 - - - - - 2024-07-07 01:10:16 - Observer:
+2024-07-07 01:10:01 - - - - - 2024-07-07 01:10:16 - {
+    "name": "收货地址 button",
+    "description": "The widget is a button labeled '收货地址', which translates to 'Shipping Address'. This button is used for managing the location of the saved delivery address in the mobile app."
+}
+2024-07-07 01:10:01 - - - - - 2024-07-07 01:10:16 - Info: Observer observes image ./RQ2/12/drive/2.png
+2024-07-07 01:10:01 - - - - - 2024-07-07 01:10:21 - Observer:
+2024-07-07 01:10:01 - - - - - 2024-07-07 01:10:21 - {
+    "Page Information": {
+        "The location of the saved delivery address": ["收货地址"]
+    }
+}
+2024-07-07 01:10:01 - - - - - 2024-07-07 01:10:21 - Info: Observer observes image ./RQ2/12/drive/3_SoM_rule.png
+2024-07-07 01:10:07 - - - - - 2024-07-07 01:10:27 - Observer:
+2024-07-07 01:10:07 - - - - - 2024-07-07 01:10:27 - {
+    "Page Type": "This page displays the user's saved shipping addresses.",
+    "Widgets": [4, 7, 13, 18]
+}
+2024-07-07 01:10:07 - - - - - 2024-07-07 01:10:27 - Info: Observer observes image ./RQ2/12/test/Task0.Page3.Widget0.png
+2024-07-07 01:10:07 - - - - - 2024-07-07 01:10:30 - Observer:
+2024-07-07 01:10:07 - - - - - 2024-07-07 01:10:30 - {
+  "name": "address display widget",
+  "description": "The widget is a text display that shows the location of the saved delivery address: 中化道达尔加油站(周家嘴路站)01."
+}
+2024-07-07 01:10:12 - - - - - 2024-07-07 01:10:30 - Info: Observer observes image ./RQ2/12/test/Task0.Page3.Widget1.png
+2024-07-07 01:10:12 - - - - - 2024-07-07 01:10:33 - Observer:
+2024-07-07 01:10:12 - - - - - 2024-07-07 01:10:33 - {
+    "name": "address display widget",
+    "description": "The widget displays the saved delivery address '华升新苑'. It is a text widget that shows the location of the saved delivery address in the mobile app."
+}
+2024-07-07 01:10:12 - - - - - 2024-07-07 01:10:33 - Info: Observer observes image ./RQ2/12/test/Task0.Page3.Widget2.png
+2024-07-07 01:10:13 - - - - - 2024-07-07 01:10:37 - Observer:
+2024-07-07 01:10:16 - - - - - 2024-07-07 01:10:37 - {
+  "name": "address display widget",
+  "description": "The widget is a text element that displays the location of the saved delivery address: 互联宝地-T6号楼."
+}
+2024-07-07 01:10:16 - - - - - 2024-07-07 01:10:37 - Info: Observer observes image ./RQ2/12/test/Task0.Page3.Widget3.png
+2024-07-07 01:10:16 - - - - - 2024-07-07 01:10:43 - Observer:
+2024-07-07 01:10:16 - - - - - 2024-07-07 01:10:43 - {
+    "name": "address display widget",
+    "description": "The widget is a text display that shows the location of the saved delivery address. It contains the text '上引+111'."
+}
+2024-07-07 01:10:16 - - - - - 2024-07-07 01:10:43 - Info: Observer observes image ./RQ2/12/drive/3.png
+2024-07-07 01:10:21 - - - - - 2024-07-07 01:10:50 - Observer:
+2024-07-07 01:10:21 - - - - - 2024-07-07 01:10:50 - {
+    "Page Information": {
+        "The location of the saved delivery address": [
+            "中化道达尔加油站(周家嘴路站) 01",
+            "华升新苑",
+            "互联宝地-T6号楼",
+            "上引+ 111"
+        ]
+    }
+}
+2024-07-07 01:10:21 - - - - - 2024-07-07 01:10:50 - Info: Observer observes image ./RQ2/12/drive/4_SoM_rule.png
+2024-07-07 01:10:21 - - - - - 2024-07-07 01:10:55 - Observer:
+2024-07-07 01:10:22 - - - - - 2024-07-07 01:10:55 - {
+    "Page Type": "This is a page for adding or editing a delivery address.",
+    "Widgets": [2, 18]
+}
+2024-07-07 01:10:27 - - - - - 2024-07-07 01:10:55 - Info: Observer observes image ./RQ2/12/test/Task0.Page4.Widget0.png
+2024-07-07 01:10:27 - - - - - 2024-07-07 01:10:59 - Observer:
+2024-07-07 01:10:27 - - - - - 2024-07-07 01:10:59 - {
+  "name": "选择收货地址按钮",
+  "description": "The widget is a button labeled '选择收货地址' in orange text, which translates to 'Select Delivery Address'. It is used to choose the location of the saved delivery address. The button has a right-pointing arrow icon next to the text, indicating that it will navigate to another screen or menu for selecting the address."
+}
+2024-07-07 01:10:27 - - - - - 2024-07-07 01:10:59 - Info: Observer observes image ./RQ2/12/test/Task0.Page4.Widget1.png
+2024-07-07 01:10:28 - - - - - 2024-07-07 01:11:04 - Observer:
+2024-07-07 01:10:30 - - - - - 2024-07-07 01:11:04 - {
+  "name": "保存地址按钮",
+  "description": "The widget is a button labeled '保存地址' (Save Address) in black text on a yellow background. It is used to save the delivery address information. The location of the saved delivery address is managed through this button."
+}
+2024-07-07 01:10:30 - - - - - 2024-07-07 01:11:04 - Info: Observer observes image ./RQ2/12/drive/4.png
+2024-07-07 01:10:30 - - - - - 2024-07-07 01:11:07 - Observer:
+2024-07-07 01:10:30 - - - - - 2024-07-07 01:11:07 - {
+    "Page Information": {
+        "The location of the saved delivery address": ["选择收货地址"]
+    }
+}
+2024-07-07 01:10:30 - - - - - 2024-07-07 01:11:07 - Info: Observer observes image ./RQ2/12/drive/5_SoM_inspect.png
+2024-07-07 01:10:33 - - - - - 2024-07-07 01:11:14 - Observer:
+2024-07-07 01:10:33 - - - - - 2024-07-07 01:11:14 - {
+    "Page Type": "Page for adding a new shipping address",
+    "Widgets": [1, 4, 7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 19, 20, 22, 24]
+}
+2024-07-07 01:10:33 - - - - - 2024-07-07 01:11:14 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget0.png
+2024-07-07 01:10:33 - - - - - 2024-07-07 01:11:17 - Observer:
+2024-07-07 01:10:34 - - - - - 2024-07-07 01:11:17 - {
+    "name": "city selection dropdown menu",
+    "description": "The widget is a dropdown menu for selecting the city, displaying the text '上海' (Shanghai) with a downward arrow on the right side. It indicates the location of the saved delivery address."
+}
+2024-07-07 01:10:37 - - - - - 2024-07-07 01:11:17 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget1.png
+2024-07-07 01:10:37 - - - - - 2024-07-07 01:11:19 - Observer:
+2024-07-07 01:10:37 - - - - - 2024-07-07 01:11:19 - {
+    "name": "street name indicator",
+    "description": "The widget displays the text '凤城路', which indicates the name of a street on the map. This widget represents the location of the saved delivery address."
+}
+2024-07-07 01:10:37 - - - - - 2024-07-07 01:11:19 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget2.png
+2024-07-07 01:10:37 - - - - - 2024-07-07 01:11:23 - Observer:
+2024-07-07 01:10:43 - - - - - 2024-07-07 01:11:23 - {
+    "name": "Residential Area Text Indicator",
+    "description": "The widget displays the text '华升新苑', indicating the location of the saved delivery address on the map. It is used to mark a residential area within the mobile app."
+}
+2024-07-07 01:10:43 - - - - - 2024-07-07 01:11:23 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget3.png
+2024-07-07 01:10:43 - - - - - 2024-07-07 01:11:26 - Observer:
+2024-07-07 01:10:43 - - - - - 2024-07-07 01:11:26 - {
+    "name": "business name indicator",
+    "description": "The widget displays the text '上海天泽上汽大众4S店', indicating the name of a business on the map. It also includes an icon of a car above the text. This widget represents the location of the saved delivery address."
+}
+2024-07-07 01:10:43 - - - - - 2024-07-07 01:11:26 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget4.png
+2024-07-07 01:10:50 - - - - - 2024-07-07 01:11:29 - Observer:
+2024-07-07 01:10:50 - - - - - 2024-07-07 01:11:29 - {
+  "name": "location marker",
+  "description": "The widget is a location marker on a map, indicating the saved delivery address. It displays the text '安遇公寓' in a white speech bubble pointing to the location on the map. The map shows surrounding areas with labels, including '上海光学仪署'."
+}
+2024-07-07 01:10:50 - - - - - 2024-07-07 01:11:29 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget5.png
+2024-07-07 01:10:50 - - - - - 2024-07-07 01:11:34 - Observer:
+2024-07-07 01:10:50 - - - - - 2024-07-07 01:11:34 - {
+  "name": "location indicator",
+  "description": "The widget displays the text '杨浦区中小企业总部园区文好姑姑周家嘴路凤诚托育园', indicating the location of the saved delivery address on the map. It shows the name of a place or business, which is likely a childcare center located in the Yangpu District."
+}
+2024-07-07 01:10:55 - - - - - 2024-07-07 01:11:34 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget6.png
+2024-07-07 01:10:55 - - - - - 2024-07-07 01:11:38 - Observer:
+2024-07-07 01:10:55 - - - - - 2024-07-07 01:11:38 - {
+  "name": "location name indicator",
+  "description": "The widget displays the text '成江发展', indicating the name of a place or business on the map. It represents the location of the saved delivery address."
+}
+2024-07-07 01:10:55 - - - - - 2024-07-07 01:11:38 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget7.png
+2024-07-07 01:10:55 - - - - - 2024-07-07 01:11:41 - Observer:
+2024-07-07 01:10:59 - - - - - 2024-07-07 01:11:41 - {
+    "name": "restaurant name text",
+    "description": "The widget displays the text '辣潮纪拌粉·瓦缶汤·拌饭', indicating the name of a restaurant on the map. The text is in Chinese characters and is likely used to identify the restaurant's location in relation to the saved delivery address."
+}
+2024-07-07 01:10:59 - - - - - 2024-07-07 01:11:41 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget8.png
+2024-07-07 01:10:59 - - - - - 2024-07-07 01:11:46 - Observer:
+2024-07-07 01:10:59 - - - - - 2024-07-07 01:11:46 - {
+    "name": "place or business name indicator",
+    "description": "The widget displays the text '成巷', which indicates the location of the saved delivery address on the map."
+}
+2024-07-07 01:11:00 - - - - - 2024-07-07 01:11:46 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget9.png
+2024-07-07 01:11:04 - - - - - 2024-07-07 01:11:49 - Observer:
+2024-07-07 01:11:04 - - - - - 2024-07-07 01:11:49 - {
+  "name": "location name widget",
+  "description": "The widget displays the text '人阳从滩大山', which indicates the name of a place or business on the map. This widget is used to show the location of the saved delivery address."
+}
+2024-07-07 01:11:04 - - - - - 2024-07-07 01:11:49 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget10.png
+2024-07-07 01:11:04 - - - - - 2024-07-07 01:11:53 - Observer:
+2024-07-07 01:11:04 - - - - - 2024-07-07 01:11:53 - {
+  "name": "location widget",
+  "description": "The widget displays the location of the saved delivery address. It shows the name '安遇公寓' and the detailed address '上海市杨浦区凤城路赵家宅16号C楼安'. This indicates a place or business name on the map."
+}
+2024-07-07 01:11:07 - - - - - 2024-07-07 01:11:53 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget11.png
+2024-07-07 01:11:07 - - - - - 2024-07-07 01:11:57 - Observer:
+2024-07-07 01:11:07 - - - - - 2024-07-07 01:11:57 - {
+  "name": "Gas Station Location Widget",
+  "description": "The widget displays the name and address of a gas station. The name of the gas station is '中化道达尔加油站(周家嘴路站)', and the address is '上海市杨浦区周家嘴路2801号(近凤城路)'. This indicates the location of the saved delivery address on the map."
+}
+2024-07-07 01:11:07 - - - - - 2024-07-07 01:11:57 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget12.png
+2024-07-07 01:11:08 - - - - - 2024-07-07 01:11:59 - Observer:
+2024-07-07 01:11:14 - - - - - 2024-07-07 01:11:59 - {"name": "Text indicating a place or business name on the map", "description": "The widget displays the text '越天', which indicates the location of the saved delivery address on the map."}
+2024-07-07 01:11:14 - - - - - 2024-07-07 01:11:59 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget13.png
+2024-07-07 01:11:14 - - - - - 2024-07-07 01:12:03 - Observer:
+2024-07-07 01:11:14 - - - - - 2024-07-07 01:12:03 - {
+  "name": "location address widget",
+  "description": "The widget displays the location of the saved delivery address. It shows the text '安遇-A栋' in bold, indicating the name of the place or business, followed by '上海市杨浦区安遇公寓' in a lighter font, specifying the detailed address in Yangpu District, Shanghai."
+}
+2024-07-07 01:11:14 - - - - - 2024-07-07 01:12:03 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget14.png
+2024-07-07 01:11:17 - - - - - 2024-07-07 01:12:08 - Observer:
+2024-07-07 01:11:17 - - - - - 2024-07-07 01:12:08 - {
+    "name": "location text widget",
+    "description": "The widget displays the location of the saved delivery address. It contains two lines of text: the first line reads '赵家宅16号-B号楼', and the second line reads '上海市杨浦区控江路凤城路1号'. This text indicates a specific place or business name on the map."
+}
+2024-07-07 01:11:17 - - - - - 2024-07-07 01:12:08 - Info: Observer observes image ./RQ2/12/test/Task0.Page5.Widget15.png
+2024-07-07 01:11:17 - - - - - 2024-07-07 01:12:12 - Observer:
+2024-07-07 01:11:17 - - - - - 2024-07-07 01:12:12 - {
+  "name": "location text widget",
+  "description": "The widget displays the text '京东上海市杨浦区周家嘴路2821号', indicating the location of the saved delivery address on the map. It includes the name of the business '京东' and the detailed address '上海市杨浦区周家嘴路2821号'."
+}
+2024-07-07 01:11:19 - - - - - 2024-07-07 01:12:12 - Info: Observer observes image ./RQ2/12/drive/5.png
+2024-07-07 01:11:19 - - - - - 2024-07-07 01:12:19 - Observer:
+2024-07-07 01:11:19 - - - - - 2024-07-07 01:12:19 - {
+    "Page Information": {
+        "The location of the saved delivery address": [
+            "上海市杨浦区凤城路赵家宅16号C楼",
+            "上海市杨浦区周家嘴路2801号(近凤城路)",
+            "上海市杨浦区安谧公寓",
+            "上海市杨浦区控江路凤城路1号",
+            "上海市杨浦区周家嘴路2821号"
+        ]
+    }
+}
+2024-07-07 01:11:19 - - - - - 2024-07-07 01:12:19 - Info: Observer observes image ./RQ2/12/drive/6_SoM_rule.png
+2024-07-07 01:11:19 - - - - - 2024-07-07 01:12:26 - Observer:
+2024-07-07 01:11:23 - - - - - 2024-07-07 01:12:26 - {
+    "Page Type": "Address management page for adding or editing delivery addresses",
+    "Widgets": [2, 3, 4, 6, 7, 8, 12, 24, 26, 27, 28, 29, 30, 31, 32, 33]
+}
+2024-07-07 01:11:23 - - - - - 2024-07-07 01:12:26 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget0.png
+2024-07-07 01:11:23 - - - - - 2024-07-07 01:12:30 - Observer:
+2024-07-07 01:11:23 - - - - - 2024-07-07 01:12:30 - {
+    "name": "大众4S address widget",
+    "description": "The widget displays the text '大众4S', which represents the name of a saved delivery address. It is used to indicate the location of the saved delivery address within the mobile app."
+}
+2024-07-07 01:11:23 - - - - - 2024-07-07 01:12:30 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget1.png
+2024-07-07 01:11:26 - - - - - 2024-07-07 01:12:34 - Observer:
+2024-07-07 01:11:26 - - - - - 2024-07-07 01:12:34 - {
+    "name": "address name widget",
+    "description": "The widget displays the text '凤城港', which represents the location of the saved delivery address."
+}
+2024-07-07 01:11:26 - - - - - 2024-07-07 01:12:34 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget2.png
+2024-07-07 01:11:26 - - - - - 2024-07-07 01:12:37 - Observer:
+2024-07-07 01:11:26 - - - - - 2024-07-07 01:12:37 - {
+    "name": "delivery address widget",
+    "description": "The widget displays the text '上海光又器', which represents the location of the saved delivery address. It is overlaid on a map background, indicating the specific address location."
+}
+2024-07-07 01:11:29 - - - - - 2024-07-07 01:12:37 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget3.png
+2024-07-07 01:11:29 - - - - - 2024-07-07 01:12:41 - Observer:
+2024-07-07 01:11:29 - - - - - 2024-07-07 01:12:41 - {
+  "name": "delivery address widget",
+  "description": "The widget displays the text '安遇公寓', which represents the location of the saved delivery address."
+}
+2024-07-07 01:11:29 - - - - - 2024-07-07 01:12:41 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget4.png
+2024-07-07 01:11:30 - - - - - 2024-07-07 01:12:45 - Observer:
+2024-07-07 01:11:34 - - - - - 2024-07-07 01:12:45 - {
+  "name": "address details widget",
+  "description": "The widget displays the location of the saved delivery address: 上海市杨浦区凤城路赵家宅16号C楼. It is a text-based widget showing the full address details."
+}
+2024-07-07 01:11:34 - - - - - 2024-07-07 01:12:45 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget5.png
+2024-07-07 01:11:34 - - - - - 2024-07-07 01:12:48 - Observer:
+2024-07-07 01:11:34 - - - - - 2024-07-07 01:12:48 - {
+  "name": "text, address name widget",
+  "description": "The widget displays the text '杨用造个小企业', which represents the name of the saved delivery address. It is used to show the location of the saved delivery address in the mobile app."
+}
+2024-07-07 01:11:35 - - - - - 2024-07-07 01:12:48 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget6.png
+2024-07-07 01:11:38 - - - - - 2024-07-07 01:12:53 - Observer:
+2024-07-07 01:11:38 - - - - - 2024-07-07 01:12:53 - {
+    "name": "address name widget",
+    "description": "The widget displays the text '半米', which represents the location of the saved delivery address."
+}
+2024-07-07 01:11:38 - - - - - 2024-07-07 01:12:53 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget7.png
+2024-07-07 01:11:38 - - - - - 2024-07-07 01:12:55 - Observer:
+2024-07-07 01:11:38 - - - - - 2024-07-07 01:12:55 - {
+  "name": "delivery address widget",
+  "description": "The widget displays the text '安利', which represents the name of the saved delivery address. It is used to show the location of the saved delivery address in the mobile app."
+}
+2024-07-07 01:11:41 - - - - - 2024-07-07 01:12:55 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget8.png
+2024-07-07 01:11:41 - - - - - 2024-07-07 01:12:57 - Observer:
+2024-07-07 01:11:41 - - - - - 2024-07-07 01:12:57 - {
+  "name": "address name widget",
+  "description": "The widget displays the text '和', which represents the location of the saved delivery address."
+}
+2024-07-07 01:11:41 - - - - - 2024-07-07 01:12:57 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget9.png
+2024-07-07 01:11:42 - - - - - 2024-07-07 01:13:01 - Observer:
+2024-07-07 01:11:46 - - - - - 2024-07-07 01:13:01 - {
+  "name": "address name widget",
+  "description": "The widget displays the text '园' and represents the location of the saved delivery address. It is designed to show the name of the address in a concise manner."
+}
+2024-07-07 01:11:46 - - - - - 2024-07-07 01:13:01 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget10.png
+2024-07-07 01:11:46 - - - - - 2024-07-07 01:13:03 - Observer:
+2024-07-07 01:11:46 - - - - - 2024-07-07 01:13:03 - {
+    "name": "address name widget",
+    "description": "The widget displays the text '星' and is used to show the location of the saved delivery address."
+}
+2024-07-07 01:11:46 - - - - - 2024-07-07 01:13:03 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget11.png
+2024-07-07 01:11:49 - - - - - 2024-07-07 01:13:06 - Observer:
+2024-07-07 01:11:49 - - - - - 2024-07-07 01:13:06 - {
+  "name": "address name widget",
+  "description": "The widget displays the text '社', which represents the location of the saved delivery address. It is used to indicate the name of the address in the mobile app."
+}
+2024-07-07 01:11:49 - - - - - 2024-07-07 01:13:06 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget12.png
+2024-07-07 01:11:49 - - - - - 2024-07-07 01:13:09 - Observer:
+2024-07-07 01:11:49 - - - - - 2024-07-07 01:13:09 - {
+    "name": "saved delivery address widget",
+    "description": "The widget is designed to display the location of the saved delivery address. It features a text field where the address name is shown. The widget is visually represented with a purple vertical bar on the left side, indicating its active or selected state."
+}
+2024-07-07 01:11:53 - - - - - 2024-07-07 01:13:09 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget13.png
+2024-07-07 01:11:53 - - - - - 2024-07-07 01:13:13 - Observer:
+2024-07-07 01:11:53 - - - - - 2024-07-07 01:13:13 - {
+  "name": "address name widget",
+  "description": "The widget displays the Chinese character '金', which is used to represent the location of the saved delivery address. It functions as a text label indicating the name of the address."
+}
+2024-07-07 01:11:53 - - - - - 2024-07-07 01:13:13 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget14.png
+2024-07-07 01:11:53 - - - - - 2024-07-07 01:13:17 - Observer:
+2024-07-07 01:11:57 - - - - - 2024-07-07 01:13:17 - {"name": "address name widget", "description": "The widget displays the Chinese character '百' in purple color. It represents the location of the saved delivery address on the comprehensive commercial platform's mobile app."}
+2024-07-07 01:11:57 - - - - - 2024-07-07 01:13:17 - Info: Observer observes image ./RQ2/12/test/Task0.Page6.Widget15.png
+2024-07-07 01:11:57 - - - - - 2024-07-07 01:13:20 - Observer:
+2024-07-07 01:11:57 - - - - - 2024-07-07 01:13:20 - {
+  "name": "address name widget",
+  "description": "The widget displays the text '朋白' and represents the location of the saved delivery address in the mobile app."
+}
+2024-07-07 01:11:57 - - - - - 2024-07-07 01:13:20 - Info: Observer observes image ./RQ2/12/drive/6.png
+2024-07-07 01:11:59 - - - - - 2024-07-07 01:13:24 - Observer:
+2024-07-07 01:11:59 - - - - - 2024-07-07 01:13:24 - {
+    "Page Information": {
+        "The location of the saved delivery address": ["上海市杨浦区凤城路赵家宅16号C楼"]
+    }
+}
+2024-07-07 01:11:59 - - - - - 2024-07-07 01:13:24 - Info: Observer observes image ./RQ2/12/drive/7_SoM_rule.png
+2024-07-07 01:11:59 - - - - - 2024-07-07 01:13:30 - Observer:
+2024-07-07 01:11:59 - - - - - 2024-07-07 01:13:30 - {
+    "Page Type": "Page for adding a new shipping address",
+    "Widgets": [3, 4, 6, 8, 9, 14, 15, 16, 17, 18, 28, 30, 31, 32, 33, 35, 36, 37]
+}
+2024-07-07 01:12:03 - - - - - 2024-07-07 01:13:30 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget0.png
+2024-07-07 01:12:03 - - - - - 2024-07-07 01:13:33 - Observer:
+2024-07-07 01:12:03 - - - - - 2024-07-07 01:13:33 - {
+    "name": "location text widget",
+    "description": "The widget displays the text '凤城港', indicating the location of the saved delivery address."
+}
+2024-07-07 01:12:03 - - - - - 2024-07-07 01:13:33 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget1.png
+2024-07-07 01:12:04 - - - - - 2024-07-07 01:13:36 - Observer:
+2024-07-07 01:12:08 - - - - - 2024-07-07 01:13:36 - {
+  "name": "location indicator",
+  "description": "The widget displays the text '上海光器', indicating the location of the saved delivery address. It is overlaid on a map background, with a red map pin icon pointing to the specific location."
+}
+2024-07-07 01:12:08 - - - - - 2024-07-07 01:13:36 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget2.png
+2024-07-07 01:12:08 - - - - - 2024-07-07 01:13:39 - Observer:
+2024-07-07 01:12:08 - - - - - 2024-07-07 01:13:39 - {
+    "name": "location text widget",
+    "description": "The widget displays the text '安遇公寓', indicating the location of the saved delivery address."
+}
+2024-07-07 01:12:08 - - - - - 2024-07-07 01:13:39 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget3.png
+2024-07-07 01:12:12 - - - - - 2024-07-07 01:13:43 - Observer:
+2024-07-07 01:12:12 - - - - - 2024-07-07 01:13:43 - {
+    "name": "address widget",
+    "description": "The widget displays the location of the saved delivery address: 上海市杨浦区凤城路赵家宅16号C楼. It provides detailed information about the address, including the city, district, road, and specific building number."
+}
+2024-07-07 01:12:12 - - - - - 2024-07-07 01:13:43 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget4.png
+2024-07-07 01:12:12 - - - - - 2024-07-07 01:13:46 - Observer:
+2024-07-07 01:12:12 - - - - - 2024-07-07 01:13:46 - {
+    "name": "location text widget",
+    "description": "The widget displays the text '杨造工小企业', indicating the location of the saved delivery address."
+}
+2024-07-07 01:12:19 - - - - - 2024-07-07 01:13:46 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget5.png
+2024-07-07 01:12:19 - - - - - 2024-07-07 01:13:52 - Observer:
+2024-07-07 01:12:19 - - - - - 2024-07-07 01:13:52 - {
+  "name": "location indicator",
+  "description": "The widget is a text element displaying the Chinese character '浦', indicating the location of the saved delivery address."
+}
+2024-07-07 01:12:19 - - - - - 2024-07-07 01:13:52 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget6.png
+2024-07-07 01:12:20 - - - - - 2024-07-07 01:13:56 - Observer:
+2024-07-07 01:12:26 - - - - - 2024-07-07 01:13:56 - {
+  "name": "location indicator",
+  "description": "The widget displays the text '半米', which indicates the location of the saved delivery address."
+}
+2024-07-07 01:12:26 - - - - - 2024-07-07 01:13:56 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget7.png
+2024-07-07 01:12:26 - - - - - 2024-07-07 01:14:00 - Observer:
+2024-07-07 01:12:26 - - - - - 2024-07-07 01:14:00 - {
+    "name": "location indicator",
+    "description": "The widget displays the Chinese character '建', which indicates the location of the saved delivery address. The character is shown in a light blue color against a light green and white background."
+}
+2024-07-07 01:12:26 - - - - - 2024-07-07 01:14:00 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget8.png
+2024-07-07 01:12:30 - - - - - 2024-07-07 01:14:02 - Observer:
+2024-07-07 01:12:30 - - - - - 2024-07-07 01:14:02 - {
+    "name": "location indicator",
+    "description": "The widget is a text indicator displaying the Chinese character '公', which signifies the location of the saved delivery address."
+}
+2024-07-07 01:12:30 - - - - - 2024-07-07 01:14:02 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget9.png
+2024-07-07 01:12:30 - - - - - 2024-07-07 01:14:06 - Observer:
+2024-07-07 01:12:30 - - - - - 2024-07-07 01:14:06 - {
+  "name": "home location widget",
+  "description": "The widget displays the Chinese character '家', which indicates the location of the saved delivery address labeled as 'home'. It is enclosed in a rounded rectangle with a light gray border."
+}
+2024-07-07 01:12:34 - - - - - 2024-07-07 01:14:06 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget10.png
+2024-07-07 01:12:34 - - - - - 2024-07-07 01:14:09 - Observer:
+2024-07-07 01:12:34 - - - - - 2024-07-07 01:14:09 - {
+  "name": "location text widget",
+  "description": "The widget displays the text '安利', indicating the location of the saved delivery address."
+}
+2024-07-07 01:12:34 - - - - - 2024-07-07 01:14:09 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget11.png
+2024-07-07 01:12:34 - - - - - 2024-07-07 01:14:12 - Observer:
+2024-07-07 01:12:37 - - - - - 2024-07-07 01:14:12 - {
+    "name": "location indicator",
+    "description": "The widget displays the Chinese character '和', which indicates the location of the saved delivery address."
+}
+2024-07-07 01:12:37 - - - - - 2024-07-07 01:14:12 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget12.png
+2024-07-07 01:12:37 - - - - - 2024-07-07 01:14:15 - Observer:
+2024-07-07 01:12:37 - - - - - 2024-07-07 01:14:15 - {
+  "name": "location indicator",
+  "description": "The widget is a square icon with a blue background and the Chinese character '园' in white in the center. This widget indicates the location of the saved delivery address."
+}
+2024-07-07 01:12:37 - - - - - 2024-07-07 01:14:15 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget13.png
+2024-07-07 01:12:41 - - - - - 2024-07-07 01:14:17 - Observer:
+2024-07-07 01:12:41 - - - - - 2024-07-07 01:14:17 - {
+    "name": "location indicator",
+    "description": "The widget displays the character '星', which indicates the location of the saved delivery address."
+}
+2024-07-07 01:12:41 - - - - - 2024-07-07 01:14:17 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget14.png
+2024-07-07 01:12:41 - - - - - 2024-07-07 01:14:21 - Observer:
+2024-07-07 01:12:42 - - - - - 2024-07-07 01:14:21 - {
+  "name": "location indicator",
+  "description": "The widget displays the Chinese character '社', which indicates the location of the saved delivery address."
+}
+2024-07-07 01:12:45 - - - - - 2024-07-07 01:14:21 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget15.png
+2024-07-07 01:12:45 - - - - - 2024-07-07 01:14:24 - Observer:
+2024-07-07 01:12:45 - - - - - 2024-07-07 01:14:24 - {
+    "name": "location indicator",
+    "description": "The widget is a text element displaying the Chinese character '金', which indicates the location of the saved delivery address."
+}
+2024-07-07 01:12:45 - - - - - 2024-07-07 01:14:24 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget16.png
+2024-07-07 01:12:45 - - - - - 2024-07-07 01:14:26 - Observer:
+2024-07-07 01:12:48 - - - - - 2024-07-07 01:14:26 - {
+  "name": "location indicator",
+  "description": "The widget is an icon with the Chinese character '百' in purple color. It indicates the location of the saved delivery address."
+}
+2024-07-07 01:12:48 - - - - - 2024-07-07 01:14:26 - Info: Observer observes image ./RQ2/12/test/Task0.Page7.Widget17.png
+2024-07-07 01:12:48 - - - - - 2024-07-07 01:14:29 - Observer:
+2024-07-07 01:12:48 - - - - - 2024-07-07 01:14:29 - {
+  "name": "location indicator",
+  "description": "The widget displays the text '朋白', indicating the location of the saved delivery address."
+}
+2024-07-07 01:12:49 - - - - - 2024-07-07 01:14:29 - Info: Observer observes image ./RQ2/12/drive/7.png
+2024-07-07 01:12:53 - - - - - 2024-07-07 01:14:34 - Observer:
+2024-07-07 01:12:53 - - - - - 2024-07-07 01:14:34 - {
+    "Page Information": {
+        "The location of the saved delivery address": ["上海市杨浦区凤城路赵家宅16号C楼"]
+    }
+}
+2024-07-07 01:12:53 - - - - - 2024-07-07 01:14:34 - Info: Observer observes image ./RQ2/12/drive/8_SoM_rule.png
+2024-07-07 01:12:53 - - - - - 2024-07-07 01:14:39 - Observer:
+2024-07-07 01:12:53 - - - - - 2024-07-07 01:14:39 - {
+    "Page Type": "Page for adding a new shipping address",
+    "Widgets": [2, 3, 6]
+}
+2024-07-07 01:12:55 - - - - - 2024-07-07 01:14:39 - Info: Observer observes image ./RQ2/12/test/Task0.Page8.Widget0.png
+2024-07-07 01:12:55 - - - - - 2024-07-07 01:14:42 - Observer:
+2024-07-07 01:12:55 - - - - - 2024-07-07 01:14:42 - {
+    "name": "location name widget",
+    "description": "The widget displays the text '凤城港', indicating the location of the saved delivery address."
+}
+2024-07-07 01:12:55 - - - - - 2024-07-07 01:14:42 - Info: Observer observes image ./RQ2/12/test/Task0.Page8.Widget1.png
+2024-07-07 01:12:56 - - - - - 2024-07-07 01:14:47 - Observer:
+2024-07-07 01:12:57 - - - - - 2024-07-07 01:14:47 - {
+  "name": "location name indicator",
+  "description": "The widget displays the text '上海光器', indicating the location name. It is used to show the location of the saved delivery address on the map. The text is overlaid on a map background, with a red location pin icon partially visible."
+}
+2024-07-07 01:12:57 - - - - - 2024-07-07 01:14:47 - Info: Observer observes image ./RQ2/12/test/Task0.Page8.Widget2.png
+2024-07-07 01:12:57 - - - - - 2024-07-07 01:14:51 - Observer:
+2024-07-07 01:12:57 - - - - - 2024-07-07 01:14:51 - {
+    "name": "delivery address widget",
+    "description": "The widget displays the location of the saved delivery address, which is 上海市杨浦区凤城路赵家宅16号C楼. It provides a detailed address for delivery purposes."
+}
+2024-07-07 01:12:58 - - - - - 2024-07-07 01:14:51 - Info: Observer observes image ./RQ2/12/drive/8.png
+2024-07-07 01:13:01 - - - - - 2024-07-07 01:14:56 - Observer:
+2024-07-07 01:13:01 - - - - - 2024-07-07 01:14:56 - {
+    "Page Information": {
+        "The location of the saved delivery address": ["上海市杨浦区凤城路赵家宅16号C楼"]
+    }
+}
+2024-07-07 01:13:01 - - - - - 2024-07-07 01:14:56 - Info: Observer observes image ./RQ2/12/drive/9_SoM_rule.png
+2024-07-07 01:13:01 - - - - - 2024-07-07 01:15:03 - Observer:
+2024-07-07 01:13:01 - - - - - 2024-07-07 01:15:03 - {
+    "Page Type": "This page is for adding or editing a delivery address.",
+    "Widgets": [3, 4, 6, 8, 9, 13, 14, 15, 16, 27, 29, 30, 31, 32, 33, 34, 35, 36]
+}
+2024-07-07 01:13:03 - - - - - 2024-07-07 01:15:03 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget0.png
+2024-07-07 01:13:03 - - - - - 2024-07-07 01:15:06 - Observer:
+2024-07-07 01:13:03 - - - - - 2024-07-07 01:15:06 - {
+    "name": "location text widget",
+    "description": "The widget displays the text '凤城港', indicating the location of the saved delivery address."
+}
+2024-07-07 01:13:03 - - - - - 2024-07-07 01:15:06 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget1.png
+2024-07-07 01:13:03 - - - - - 2024-07-07 01:15:09 - Observer:
+2024-07-07 01:13:06 - - - - - 2024-07-07 01:15:09 - {
+  "name": "location indicator",
+  "description": "The widget is a text label displaying the location '上海光器', which indicates the location of the saved delivery address. It is accompanied by a red map pin icon, suggesting the precise point on the map."
+}
+2024-07-07 01:13:06 - - - - - 2024-07-07 01:15:09 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget2.png
+2024-07-07 01:13:06 - - - - - 2024-07-07 01:15:13 - Observer:
+2024-07-07 01:13:06 - - - - - 2024-07-07 01:15:13 - {
+    "name": "location text widget",
+    "description": "The widget displays the text '安遇公寓', indicating the location of the saved delivery address."
+}
+2024-07-07 01:13:06 - - - - - 2024-07-07 01:15:13 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget3.png
+2024-07-07 01:13:09 - - - - - 2024-07-07 01:15:16 - Observer:
+2024-07-07 01:13:09 - - - - - 2024-07-07 01:15:16 - {
+    "name": "delivery address widget",
+    "description": "The widget displays the location of the saved delivery address: 上海市杨浦区凤城路赵家宅16号C楼."
+}
+2024-07-07 01:13:09 - - - - - 2024-07-07 01:15:16 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget4.png
+2024-07-07 01:13:09 - - - - - 2024-07-07 01:15:20 - Observer:
+2024-07-07 01:13:09 - - - - - 2024-07-07 01:15:20 - {
+  "name": "location text widget",
+  "description": "The widget displays the text '杨造工小企业', indicating the location of the saved delivery address."
+}
+2024-07-07 01:13:13 - - - - - 2024-07-07 01:15:20 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget5.png
+2024-07-07 01:13:13 - - - - - 2024-07-07 01:15:23 - Observer:
+2024-07-07 01:13:13 - - - - - 2024-07-07 01:15:23 - {
+  "name": "location indicator",
+  "description": "The widget displays the text '半米', which indicates the location of the saved delivery address."
+}
+2024-07-07 01:13:13 - - - - - 2024-07-07 01:15:23 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget6.png
+2024-07-07 01:13:13 - - - - - 2024-07-07 01:15:37 - Observer:
+2024-07-07 01:13:17 - - - - - 2024-07-07 01:15:37 - {
+    "name": "location indicator",
+    "description": "The widget is an icon with the Chinese character '建' in the center, indicating the location of the saved delivery address."
+}
+2024-07-07 01:13:17 - - - - - 2024-07-07 01:15:37 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget7.png
+2024-07-07 01:13:17 - - - - - 2024-07-07 01:15:41 - Observer:
+2024-07-07 01:13:17 - - - - - 2024-07-07 01:15:41 - {
+    "name": "location indicator",
+    "description": "The widget is a text element displaying the Chinese character '公', which indicates the location of the saved delivery address."
+}
+2024-07-07 01:13:17 - - - - - 2024-07-07 01:15:41 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget8.png
+2024-07-07 01:13:20 - - - - - 2024-07-07 01:15:44 - Observer:
+2024-07-07 01:13:20 - - - - - 2024-07-07 01:15:44 - {
+    "name": "home location widget",
+    "description": "The widget displays the Chinese character '家', which indicates the location of the saved delivery address. It is enclosed in a rounded rectangle with a light gray border."
+}
+2024-07-07 01:13:20 - - - - - 2024-07-07 01:15:44 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget9.png
+2024-07-07 01:13:20 - - - - - 2024-07-07 01:15:48 - Observer:
+2024-07-07 01:13:20 - - - - - 2024-07-07 01:15:48 - {
+  "name": "location text widget",
+  "description": "The widget displays the text '安利', indicating the location of the saved delivery address."
+}
+2024-07-07 01:13:24 - - - - - 2024-07-07 01:15:48 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget10.png
+2024-07-07 01:13:24 - - - - - 2024-07-07 01:15:51 - Observer:
+2024-07-07 01:13:24 - - - - - 2024-07-07 01:15:51 - {
+    "name": "location indicator",
+    "description": "The widget displays the Chinese character '和', which indicates the location of the saved delivery address."
+}
+2024-07-07 01:13:24 - - - - - 2024-07-07 01:15:51 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget11.png
+2024-07-07 01:13:25 - - - - - 2024-07-07 01:15:54 - Observer:
+2024-07-07 01:13:30 - - - - - 2024-07-07 01:15:54 - {
+  "name": "location indicator",
+  "description": "The widget is a square icon with a blue background and the Chinese character '园' in the center. It indicates the location of the saved delivery address."
+}
+2024-07-07 01:13:30 - - - - - 2024-07-07 01:15:54 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget12.png
+2024-07-07 01:13:30 - - - - - 2024-07-07 01:15:56 - Observer:
+2024-07-07 01:13:30 - - - - - 2024-07-07 01:15:56 - {
+  "name": "location indicator",
+  "description": "The widget displays the text '星', indicating the location of the saved delivery address."
+}
+2024-07-07 01:13:31 - - - - - 2024-07-07 01:15:57 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget13.png
+2024-07-07 01:13:33 - - - - - 2024-07-07 01:15:59 - Observer:
+2024-07-07 01:13:33 - - - - - 2024-07-07 01:15:59 - {
+  "name": "location indicator",
+  "description": "The widget displays the Chinese character '社', which indicates the location of the saved delivery address."
+}
+2024-07-07 01:13:33 - - - - - 2024-07-07 01:15:59 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget14.png
+2024-07-07 01:13:33 - - - - - 2024-07-07 01:16:03 - Observer:
+2024-07-07 01:13:33 - - - - - 2024-07-07 01:16:03 - {
+  "name": "location indicator",
+  "description": "The widget is an icon with a lowercase 'i' in the center, indicating the location of the saved delivery address."
+}
+2024-07-07 01:13:36 - - - - - 2024-07-07 01:16:03 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget15.png
+2024-07-07 01:13:36 - - - - - 2024-07-07 01:16:06 - Observer:
+2024-07-07 01:13:36 - - - - - 2024-07-07 01:16:06 - {
+    "name": "location indicator",
+    "description": "The widget is a text indicator displaying the character '金', which signifies the location of the saved delivery address."
+}
+2024-07-07 01:13:36 - - - - - 2024-07-07 01:16:06 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget16.png
+2024-07-07 01:13:37 - - - - - 2024-07-07 01:16:08 - Observer:
+2024-07-07 01:13:39 - - - - - 2024-07-07 01:16:08 - {
+  "name": "location indicator",
+  "description": "The widget is an icon with the Chinese character '百' in purple color. It indicates the location of the saved delivery address."
+}
+2024-07-07 01:13:39 - - - - - 2024-07-07 01:16:08 - Info: Observer observes image ./RQ2/12/test/Task0.Page9.Widget17.png
+2024-07-07 01:13:39 - - - - - 2024-07-07 01:16:12 - Observer:
+2024-07-07 01:13:39 - - - - - 2024-07-07 01:16:12 - {
+  "name": "location indicator",
+  "description": "The widget displays the text '朋白', indicating the location of the saved delivery address."
+}
+2024-07-07 01:13:40 - - - - - 2024-07-07 01:16:12 - Info: Observer observes image ./RQ2/12/drive/9.png
+2024-07-07 01:13:43 - - - - - 2024-07-07 01:16:18 - Observer:
+2024-07-07 01:13:43 - - - - - 2024-07-07 01:16:18 - {
+    "Page Information": {
+        "The location of the saved delivery address": ["上海市杨浦区凤城路赵家宅16号C楼"]
+    }
+}
+2024-07-07 01:13:43 - - - - - 2024-07-07 01:16:18 - Info: Observer observes image ./RQ2/12/drive/10_SoM_rule.png
+2024-07-07 01:13:43 - - - - - 2024-07-07 01:16:24 - Observer:
+2024-07-07 01:13:43 - - - - - 2024-07-07 01:16:24 - {
+    "Page Type": "This page displays the user's saved delivery addresses.",
+    "Widgets": [4, 9, 14, 20, 24]
+}
+2024-07-07 01:13:46 - - - - - 2024-07-07 01:16:24 - Info: Observer observes image ./RQ2/12/test/Task0.Page10.Widget0.png
+2024-07-07 01:13:46 - - - - - 2024-07-07 01:16:28 - Observer:
+2024-07-07 01:13:46 - - - - - 2024-07-07 01:16:28 - {
+  "name": "textline widget",
+  "description": "The widget displays the text '安遇公寓01', which represents the location of the saved delivery address. It is used to show the name of the address in the mobile app."
+}
+2024-07-07 01:13:46 - - - - - 2024-07-07 01:16:28 - Info: Observer observes image ./RQ2/12/test/Task0.Page10.Widget1.png
+2024-07-07 01:13:46 - - - - - 2024-07-07 01:16:31 - Observer:
+2024-07-07 01:13:52 - - - - - 2024-07-07 01:16:31 - {
+    "name": "textline, address name",
+    "description": "The widget displays the location of the saved delivery address, which is 中化道达尔加油站(周家嘴路站)01."
+}
+2024-07-07 01:13:52 - - - - - 2024-07-07 01:16:31 - Info: Observer observes image ./RQ2/12/test/Task0.Page10.Widget2.png
+2024-07-07 01:13:52 - - - - - 2024-07-07 01:16:34 - Observer:
+2024-07-07 01:13:52 - - - - - 2024-07-07 01:16:34 - {
+  "name": "address name widget",
+  "description": "The widget displays the text '华升新苑', which represents the location of the saved delivery address."
+}
+2024-07-07 01:13:52 - - - - - 2024-07-07 01:16:34 - Info: Observer observes image ./RQ2/12/test/Task0.Page10.Widget3.png
+2024-07-07 01:13:56 - - - - - 2024-07-07 01:16:37 - Observer:
+2024-07-07 01:13:56 - - - - - 2024-07-07 01:16:37 - {
+    "name": "address name textline",
+    "description": "The widget displays the location of the saved delivery address, which is '互联宝地-T6号楼'. It is a textline that shows the name of the address."
+}
+2024-07-07 01:13:56 - - - - - 2024-07-07 01:16:37 - Info: Observer observes image ./RQ2/12/test/Task0.Page10.Widget4.png
+2024-07-07 01:13:56 - - - - - 2024-07-07 01:16:40 - Observer:
+2024-07-07 01:13:56 - - - - - 2024-07-07 01:16:40 - {
+    "name": "textline widget",
+    "description": "The widget displays the text '上引+111' and serves the function of showing the location of the saved delivery address."
+}
+2024-07-07 01:14:00 - - - - - 2024-07-07 01:16:40 - Info: Observer observes image ./RQ2/12/drive/10.png
+2024-07-07 01:14:00 - - - - - 2024-07-07 01:16:46 - Observer:
+2024-07-07 01:14:00 - - - - - 2024-07-07 01:16:46 - {
+    "Page Information": {
+        "The location of the saved delivery address": [
+            "安遇公寓 01",
+            "中化道达尔加油站(周家嘴路站) 01",
+            "华升新苑",
+            "互联网宝地-T6号楼",
+            "上引+111"
+        ]
+    }
+}
+2024-07-07 01:14:00 - - - - - 2024-07-07 01:16:46 - Info: TestTaskChecker is checking the extracted information
+2024-07-07 01:14:00 - - - - - 2024-07-07 01:16:49 - TestTaskChecker:
+2024-07-07 01:14:02 - - - - - 2024-07-07 01:16:49 - {
+  "judgement": "Yes",
+  "reason": "The test task was to check if the saved delivery address matches the input value. The user navigated through the app to add a new address. They selected '上海市杨浦区凤城路赵家宅16号C楼' from the list, then added '01' to the door number, resulting in the full address '上海市杨浦区凤城路赵家宅16号C楼 01'. After saving the address, the final page (Page 10) displayed the saved delivery addresses, including '安遇公寓 01', which matches the input value. Therefore, the saved address is equal to the input value."
+}
+2024-07-07 01:14:02 - - - - - 2024-07-07 01:16:49 - Info: Analyst is analysing the task
+2024-07-07 01:14:02 - - - - - 2024-07-07 01:16:51 - Analyst:
+2024-07-07 01:14:02 - - - - - 2024-07-07 01:16:51 - {
+    "target": ["name of the shipping address"]
+}
+2024-07-07 01:14:03 - - - - - 2024-07-07 01:16:51 - Info: Observer observes image ./RQ2/12/drive/0_SoM_rule.png
+2024-07-07 01:14:06 - - - - - 2024-07-07 01:16:58 - Observer:
+2024-07-07 01:14:06 - - - - - 2024-07-07 01:16:58 - {
+    "Page Type": "This is a homepage of a commercial platform's mobile app, showcasing various services and promotional deals.",
+    "Widgets": []
+}
+2024-07-07 01:14:06 - - - - - 2024-07-07 01:16:58 - Info: Observer observes image ./RQ2/12/drive/0.png
+2024-07-07 01:14:06 - - - - - 2024-07-07 01:17:11 - Observer:
+2024-07-07 01:14:07 - - - - - 2024-07-07 01:17:11 - {
+    "Page Information": {
+        "name of the shipping address": ["invisible"]
+    }
+}
+2024-07-07 01:14:09 - - - - - 2024-07-07 01:17:11 - Info: Observer observes image ./RQ2/12/drive/1_SoM_rule.png
+2024-07-07 01:14:09 - - - - - 2024-07-07 01:17:17 - Observer:
+2024-07-07 01:14:09 - - - - - 2024-07-07 01:17:17 - {
+    "Page Type": "User profile page displaying personal information and various options",
+    "Widgets": []
+}
+2024-07-07 01:14:09 - - - - - 2024-07-07 01:17:17 - Info: Observer observes image ./RQ2/12/drive/1.png
+2024-07-07 01:14:09 - - - - - 2024-07-07 01:17:23 - Observer:
+2024-07-07 01:14:12 - - - - - 2024-07-07 01:17:23 - {
+    "Page Information": {
+        "name of the shipping address": ["invisible"]
+    }
+}
+2024-07-07 01:14:12 - - - - - 2024-07-07 01:17:23 - Info: Observer observes image ./RQ2/12/drive/2_SoM_inspect.png
+2024-07-07 01:14:12 - - - - - 2024-07-07 01:17:28 - Observer:
+2024-07-07 01:14:12 - - - - - 2024-07-07 01:17:28 - {
+    "Page Type": "Settings page for managing various aspects of the user's account and preferences",
+    "Widgets": [4]
+}
+2024-07-07 01:14:12 - - - - - 2024-07-07 01:17:28 - Info: Observer observes image ./RQ2/12/test/Task1.Page2.Widget0.png
+2024-07-07 01:14:15 - - - - - 2024-07-07 01:17:31 - Observer:
+2024-07-07 01:14:15 - - - - - 2024-07-07 01:17:31 - {
+    "name": "name of the shipping address",
+    "description": "The widget is a button labeled '收货地址', which translates to 'Shipping Address'. This button is used for managing shipping addresses within the mobile app."
+}
+2024-07-07 01:14:15 - - - - - 2024-07-07 01:17:31 - Info: Observer observes image ./RQ2/12/drive/2.png
+2024-07-07 01:14:15 - - - - - 2024-07-07 01:17:36 - Observer:
+2024-07-07 01:14:15 - - - - - 2024-07-07 01:17:36 - {
+    "Page Information": {
+        "name of the shipping address": ["invisible"]
+    }
+}
+2024-07-07 01:14:17 - - - - - 2024-07-07 01:17:36 - Info: Observer observes image ./RQ2/12/drive/3_SoM_rule.png
+2024-07-07 01:14:17 - - - - - 2024-07-07 01:17:42 - Observer:
+2024-07-07 01:14:17 - - - - - 2024-07-07 01:17:42 - {
+    "Page Type": "This page displays the user's saved shipping addresses.",
+    "Widgets": [9, 15, 19]
+}
+2024-07-07 01:14:17 - - - - - 2024-07-07 01:17:42 - Info: Observer observes image ./RQ2/12/test/Task1.Page3.Widget0.png
+2024-07-07 01:14:17 - - - - - 2024-07-07 01:17:47 - Observer:
+2024-07-07 01:14:21 - - - - - 2024-07-07 01:17:47 - {
+    "name": "name of the shipping address",
+    "description": "The widget is a text display that shows the name '小明'."
+}
+2024-07-07 01:14:21 - - - - - 2024-07-07 01:17:47 - Info: Observer observes image ./RQ2/12/test/Task1.Page3.Widget1.png
+2024-07-07 01:14:21 - - - - - 2024-07-07 01:17:49 - Observer:
+2024-07-07 01:14:21 - - - - - 2024-07-07 01:17:49 - {
+    "name": "name of the shipping address",
+    "description": "The widget is a text display that shows the name '王轩'."
+}
+2024-07-07 01:14:21 - - - - - 2024-07-07 01:17:49 - Info: Observer observes image ./RQ2/12/test/Task1.Page3.Widget2.png
+2024-07-07 01:14:24 - - - - - 2024-07-07 01:17:53 - Observer:
+2024-07-07 01:14:24 - - - - - 2024-07-07 01:17:53 - {
+  "name": "name of the shipping address",
+  "description": "The widget is a text display that shows the name 'w*先生'. It is used to display the name and title of the shipping address."
+}
+2024-07-07 01:14:24 - - - - - 2024-07-07 01:17:53 - Info: Observer observes image ./RQ2/12/drive/3.png
+2024-07-07 01:14:24 - - - - - 2024-07-07 01:17:58 - Observer:
+2024-07-07 01:14:24 - - - - - 2024-07-07 01:17:58 - {
+    "Page Information": {
+        "name of the shipping address": ["小明", "小明", "王轩", "w*"]
+    }
+}
+2024-07-07 01:14:26 - - - - - 2024-07-07 01:17:58 - Info: Observer observes image ./RQ2/12/drive/4_SoM_rule.png
+2024-07-07 01:14:26 - - - - - 2024-07-07 01:18:03 - Observer:
+2024-07-07 01:14:26 - - - - - 2024-07-07 01:18:03 - {
+    "Page Type": "This is a page for adding a new shipping address.",
+    "Widgets": [14]
+}
+2024-07-07 01:14:26 - - - - - 2024-07-07 01:18:03 - Info: Observer observes image ./RQ2/12/test/Task1.Page4.Widget0.png
+2024-07-07 01:14:26 - - - - - 2024-07-07 01:18:08 - Observer:
+2024-07-07 01:14:29 - - - - - 2024-07-07 01:18:08 - {
+  "name": "name of the shipping address",
+  "description": "The widget is an input box that prompts the user to enter the name of the shipping address. The placeholder text in the input box is '请填写收货人的姓名', which translates to 'Please fill in the name of the recipient'."
+}
+2024-07-07 01:14:29 - - - - - 2024-07-07 01:18:08 - Info: Observer observes image ./RQ2/12/drive/4.png
+2024-07-07 01:14:29 - - - - - 2024-07-07 01:18:12 - Observer:
+2024-07-07 01:14:29 - - - - - 2024-07-07 01:18:12 - {
+    "Page Information": {
+        "name of the shipping address": ["请填写收货人的姓名"]
+    }
+}
+2024-07-07 01:14:29 - - - - - 2024-07-07 01:18:12 - Info: Observer observes image ./RQ2/12/drive/5_SoM_inspect.png
+2024-07-07 01:14:34 - - - - - 2024-07-07 01:18:17 - Observer:
+2024-07-07 01:14:34 - - - - - 2024-07-07 01:18:17 - {
+    "Page Type": "Page for adding a new shipping address",
+    "Widgets": []
+}
+2024-07-07 01:14:34 - - - - - 2024-07-07 01:18:17 - Info: Observer observes image ./RQ2/12/drive/5.png
+2024-07-07 01:14:34 - - - - - 2024-07-07 01:18:24 - Observer:
+2024-07-07 01:14:35 - - - - - 2024-07-07 01:18:24 - {
+    "Page Information": {
+        "name of the shipping address": [
+            "安遇公寓",
+            "中化道达尔加油站(周家嘴路站)",
+            "安遇-A栋",
+            "赵家宅16号-B号楼",
+            "京东"
+        ]
+    }
+}
+2024-07-07 01:14:39 - - - - - 2024-07-07 01:18:24 - Info: Observer observes image ./RQ2/12/drive/6_SoM_rule.png
+2024-07-07 01:14:39 - - - - - 2024-07-07 01:18:30 - Observer:
+2024-07-07 01:14:39 - - - - - 2024-07-07 01:18:30 - {
+    "Page Type": "Address management page for adding or editing shipping addresses",
+    "Widgets": [21]
+}
+2024-07-07 01:14:39 - - - - - 2024-07-07 01:18:30 - Info: Observer observes image ./RQ2/12/test/Task1.Page6.Widget0.png
+2024-07-07 01:14:40 - - - - - 2024-07-07 01:18:34 - Observer:
+2024-07-07 01:14:42 - - - - - 2024-07-07 01:18:34 - {
+    "name": "name of the shipping address",
+    "description": "The widget is an input field where users are prompted to fill in the recipient's name. The text displayed in the widget is '请填写收货人的姓名', which translates to 'Please fill in the recipient's name'."
+}
+2024-07-07 01:14:42 - - - - - 2024-07-07 01:18:34 - Info: Observer observes image ./RQ2/12/drive/6.png
+2024-07-07 01:14:42 - - - - - 2024-07-07 01:18:39 - Observer:
+2024-07-07 01:14:42 - - - - - 2024-07-07 01:18:39 - {
+    "Page Information": {
+        "name of the shipping address": ["请填写收货人的姓名"]
+    }
+}
+2024-07-07 01:14:43 - - - - - 2024-07-07 01:18:39 - Info: Observer observes image ./RQ2/12/drive/7_SoM_rule.png
+2024-07-07 01:14:47 - - - - - 2024-07-07 01:18:46 - Observer:
+2024-07-07 01:14:47 - - - - - 2024-07-07 01:18:46 - {
+    "Page Type": "This is a page for adding or editing a shipping address.",
+    "Widgets": [25]
+}
+2024-07-07 01:14:47 - - - - - 2024-07-07 01:18:46 - Info: Observer observes image ./RQ2/12/test/Task1.Page7.Widget0.png
+2024-07-07 01:14:47 - - - - - 2024-07-07 01:18:50 - Observer:
+2024-07-07 01:14:47 - - - - - 2024-07-07 01:18:50 - {
+    "name": "name of the shipping address",
+    "description": "The widget is a placeholder text field that prompts the user to enter the name of the shipping address. The placeholder text is in Chinese and reads '请填写收货人的姓名', which translates to 'Please fill in the recipient's name'."
+}
+2024-07-07 01:14:51 - - - - - 2024-07-07 01:18:50 - Info: Observer observes image ./RQ2/12/drive/7.png
+2024-07-07 01:14:51 - - - - - 2024-07-07 01:18:55 - Observer:
+2024-07-07 01:14:51 - - - - - 2024-07-07 01:18:55 - {
+    "Page Information": {
+        "name of the shipping address": ["invisible"]
+    }
+}
+2024-07-07 01:14:51 - - - - - 2024-07-07 01:18:55 - Info: Observer observes image ./RQ2/12/drive/8_SoM_rule.png
+2024-07-07 01:14:52 - - - - - 2024-07-07 01:19:01 - Observer:
+2024-07-07 01:14:56 - - - - - 2024-07-07 01:19:01 - {
+    "Page Type": "Page for adding a new shipping address",
+    "Widgets": [21]
+}
+2024-07-07 01:14:56 - - - - - 2024-07-07 01:19:01 - Info: Observer observes image ./RQ2/12/test/Task1.Page8.Widget0.png
+2024-07-07 01:14:56 - - - - - 2024-07-07 01:19:04 - Observer:
+2024-07-07 01:14:56 - - - - - 2024-07-07 01:19:04 - {
+    "name": "contact person label",
+    "description": "The widget is a label indicating the contact person's name, which is '联系人小明'. This label is used to display the name of the shipping address contact person."
+}
+2024-07-07 01:14:57 - - - - - 2024-07-07 01:19:04 - Info: Observer observes image ./RQ2/12/drive/8.png
+2024-07-07 01:15:03 - - - - - 2024-07-07 01:19:08 - Observer:
+2024-07-07 01:15:03 - - - - - 2024-07-07 01:19:08 - {
+    "Page Information": {
+        "name of the shipping address": ["小明"]
+    }
+}
+2024-07-07 01:15:03 - - - - - 2024-07-07 01:19:08 - Info: Observer observes image ./RQ2/12/drive/9_SoM_rule.png
+2024-07-07 01:15:03 - - - - - 2024-07-07 01:19:13 - Observer:
+2024-07-07 01:15:03 - - - - - 2024-07-07 01:19:13 - {
+    "Page Type": "Page for adding a new shipping address",
+    "Widgets": [23]
+}
+2024-07-07 01:15:06 - - - - - 2024-07-07 01:19:14 - Info: Observer observes image ./RQ2/12/test/Task1.Page9.Widget0.png
+2024-07-07 01:15:06 - - - - - 2024-07-07 01:19:16 - Observer:
+2024-07-07 01:15:06 - - - - - 2024-07-07 01:19:16 - {
+    "name": "contact person widget",
+    "description": "The widget displays the text '联系人 小明', indicating the contact person named '小明'. This widget is used to show the name of the shipping address contact person."
+}
+2024-07-07 01:15:06 - - - - - 2024-07-07 01:19:16 - Info: Observer observes image ./RQ2/12/drive/9.png
+2024-07-07 01:15:07 - - - - - 2024-07-07 01:19:22 - Observer:
+2024-07-07 01:15:09 - - - - - 2024-07-07 01:19:22 - {
+    "Page Information": {
+        "name of the shipping address": ["小明"]
+    }
+}
+2024-07-07 01:15:09 - - - - - 2024-07-07 01:19:22 - Info: Observer observes image ./RQ2/12/drive/10_SoM_rule.png
+2024-07-07 01:15:09 - - - - - 2024-07-07 01:19:26 - Observer:
+2024-07-07 01:15:09 - - - - - 2024-07-07 01:19:26 - {
+    "Page Type": "Shipping address management page",
+    "Widgets": [5, 10, 17, 22, 26]
+}
+2024-07-07 01:15:09 - - - - - 2024-07-07 01:19:26 - Info: Observer observes image ./RQ2/12/test/Task1.Page10.Widget0.png
+2024-07-07 01:15:13 - - - - - 2024-07-07 01:19:28 - Observer:
+2024-07-07 01:15:13 - - - - - 2024-07-07 01:19:28 - {
+    "name": "name of the shipping address",
+    "description": "The widget displays the recipient's name, 小刚, in Chinese characters. It is used to indicate the name of the shipping address."
+}
+2024-07-07 01:15:13 - - - - - 2024-07-07 01:19:28 - Info: Observer observes image ./RQ2/12/test/Task1.Page10.Widget1.png
+2024-07-07 01:15:13 - - - - - 2024-07-07 01:19:33 - Observer:
+2024-07-07 01:15:13 - - - - - 2024-07-07 01:19:33 - {
+    "name": "name of the shipping address",
+    "description": "The widget displays the recipient's name, 小明, in a text line format. It is used to indicate the name of the shipping address on the commercial platform's mobile app."
+}
+2024-07-07 01:15:16 - - - - - 2024-07-07 01:19:33 - Info: Observer observes image ./RQ2/12/test/Task1.Page10.Widget2.png
+2024-07-07 01:15:16 - - - - - 2024-07-07 01:19:36 - Observer:
+2024-07-07 01:15:16 - - - - - 2024-07-07 01:19:36 - {
+    "name": "recipient name",
+    "description": "The widget displays the name of the shipping address, which in this case is '小明'. It is a textline widget that shows the recipient's name."
+}
+2024-07-07 01:15:16 - - - - - 2024-07-07 01:19:36 - Info: Observer observes image ./RQ2/12/test/Task1.Page10.Widget3.png
+2024-07-07 01:15:17 - - - - - 2024-07-07 01:19:38 - Observer:
+2024-07-07 01:15:20 - - - - - 2024-07-07 01:19:39 - {
+    "name": "name of the shipping address",
+    "description": "The widget displays the recipient's name, 王轩, in a textline format."
+}
+2024-07-07 01:15:20 - - - - - 2024-07-07 01:19:39 - Info: Observer observes image ./RQ2/12/test/Task1.Page10.Widget4.png
+2024-07-07 01:15:20 - - - - - 2024-07-07 01:19:49 - Observer:
+2024-07-07 01:15:20 - - - - - 2024-07-07 01:19:49 - {
+  "name": "name of the shipping address",
+  "description": "The widget displays the recipient's name in a text line format. The text shown is 'w*先生', which includes both Latin and Chinese characters."
+}
+2024-07-07 01:15:20 - - - - - 2024-07-07 01:19:49 - Info: Observer observes image ./RQ2/12/drive/10.png
+2024-07-07 01:15:23 - - - - - 2024-07-07 01:19:53 - Observer:
+2024-07-07 01:15:23 - - - - - 2024-07-07 01:19:53 - {
+    "Page Information": {
+        "name of the shipping address": ["小刚", "小明", "王轩", "w*"]
+    }
+}
+2024-07-07 01:15:23 - - - - - 2024-07-07 01:19:53 - Info: TestTaskChecker is checking the extracted information
+2024-07-07 01:15:23 - - - - - 2024-07-07 01:19:56 - TestTaskChecker:
+2024-07-07 01:15:23 - - - - - 2024-07-07 01:19:56 - {
+  "judgement": "Yes",
+  "reason": "The user successfully navigated through the app to add a new shipping address and entered the name '小明' in the name input field. After saving the address, the name '小明' was correctly displayed on the shipping address management page, confirming that the saved address's name matches the input value."
+}

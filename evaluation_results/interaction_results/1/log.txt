@@ -1,0 +1,89 @@
+2024-07-02 15:09:10 - - - - 2024-07-02 15:09:11 - Info: Analyst is analysing the task
+2024-07-02 15:09:11 - - - - 2024-07-02 15:09:12 - Analyst:
+2024-07-02 15:09:11 - - - - 2024-07-02 15:09:12 - {
+    "drive_task": ["点击“外卖”按钮"]
+}
+2024-07-02 15:09:12 - - - - 2024-07-02 15:09:30 - Info: Observer observes image ./RQ1/2024-07-02_15-09-09/drive/0_SoM_rule.png
+2024-07-02 15:09:12 - - - - 2024-07-02 15:10:00 - Observer:
+2024-07-02 15:09:30 - - - - 2024-07-02 15:10:00 - {
+    "0": {"text": "互联宝地", "function": "Location indicator"},
+    "1": {"text": "扫一扫按钮", "function": "Scan button"},
+    "2": {"text": "吉泰连锁酒店搜索框，点击可搜索巴西烤肉饭脆皮鸡饭(外卖18减16", "function": "Search bar"},
+    "3": {"text": "搜索", "function": "Search button"},
+    "4": {"text": "外卖", "function": "Takeout button"},
+    "5": {"text": "小象超市自营", "function": "Supermarket button"},
+    "6": {"text": "酒店民宿", "function": "Hotel and lodging button"},
+    "7": {"text": "休闲玩乐", "function": "Leisure and entertainment button"},
+    "8": {"text": "看病买药", "function": "Medical and pharmacy button"},
+    "9": {"text": "团购", "function": "Group buying button"},
+    "10": {"text": "美食", "function": "Food button"},
+    "11": {"text": "超市便利", "function": "Convenience store button"},
+    "12": {"text": "火车票机票", "function": "Train and flight tickets button"},
+    "13": {"text": "电影演出", "function": "Movies and shows button"},
+    "14": {"text": "美团优选", "function": "Meituan preferred button"},
+    "15": {"text": "打车5折起", "function": "Taxi button"},
+    "16": {"text": "KTV", "function": "KTV button"},
+    "17": {"text": "免费水果", "function": "Free fruit button"},
+    "18": {"text": "新奇潮店ACháo", "function": "Trendy store button"},
+    "19": {"text": "美团优选明日达超市¥2.99¥3.99秒杀牛肉酱¥4.49¥14.99秒杀", "function": "Meituan preferred supermarket deals"},
+    "20": {"text": "特价团爆款热抢中小鸟当家撸鸟咖周末节假日双人撸鸟套餐¥162¥2506.5折", "function": "Special group deals"},
+    "21": {"text": "团购luckincoffee<500m瑞幸咖啡西梅美式91%好评｜半年售23万+¥10.9¥32减至3.5折资质与规则", "function": "Luckin Coffee group deal"},
+    "22": {"text": "美团直播17.73万观看点击购物袋5元(多人餐)好友欢聚套餐满40元门店价¥4078限时直播价¥249抽奖不间断关关BEL关注直播间88元优惠券全天发放不停¥29.90(60种搭配)吃堡三件‥", "function": "Meituan live streaming"},
+    "23": {"text": "外卖", "function": "Takeout button"},
+    "24": {"text": "", "function": "Icon or image"},
+    "25": {"text": "优选", "function": "Preferred button"},
+    "26": {"text": "消息②", "function": "Messages button"},
+    "27": {"text": "购物车L", "function": "Shopping cart button"},
+    "28": {"text": "我的", "function": "My account button"},
+    "29": {"text": "推荐", "function": "Recommendations button"}
+}
+2024-07-02 15:09:30 - - - - 2024-07-02 15:10:00 - Info: ActionSelector observes image ./RQ1/2024-07-02_15-09-09/drive/0_SoM_rule.png
+2024-07-02 15:09:31 - - - - 2024-07-02 15:10:10 - ActionSelector:
+2024-07-02 15:10:00 - - - - 2024-07-02 15:10:10 - {"action": "click", "target": "4", "reason": "Clicking the '外卖' button to access the takeout section"}
+2024-07-02 15:10:00 - - - - 2024-07-02 15:10:46 - Info: Observer observes image ./RQ1/2024-07-02_15-09-09/drive/1_SoM_rule.png
+2024-07-02 15:10:00 - - - - 2024-07-02 15:11:19 - Observer:
+2024-07-02 15:10:00 - - - - 2024-07-02 15:11:19 - {
+    "0": {"text": "返回<外卖", "function": "返回按钮"},
+    "1": {"text": "互联宝地，点击可选择地址", "function": "地址选择按钮"},
+    "2": {"text": "消息按钮", "function": "消息通知按钮"},
+    "3": {"text": "搜索框单人套餐搜索失控猫", "function": "搜索框"},
+    "4": {"text": "搜索", "function": "搜索按钮"},
+    "5": {"text": "美食", "function": "美食分类按钮"},
+    "6": {"text": "甜点饮品", "function": "甜点饮品分类按钮"},
+    "7": {"text": "超市便利", "function": "超市便利分类按钮"},
+    "8": {"text": "蔬菜水果", "function": "蔬菜水果分类按钮"},
+    "9": {"text": "看病买药,45元券45元券看病买药", "function": "看病买药分类按钮"},
+    "10": {"text": "下午茶", "function": "下午茶分类按钮"},
+    "11": {"text": "天天津贴¥", "function": "天天津贴按钮"},
+    "12": {"text": "跑腿", "function": "跑腿服务按钮"},
+    "13": {"text": "每日大咖", "function": "每日大咖推荐按钮"},
+    "14": {"text": "附近在吃", "function": "附近在吃推荐按钮"},
+    "15": {"text": "", "function": "图标"},
+    "16": {"text": "", "function": "图标"},
+    "17": {"text": "神抢手", "function": "神抢手活动按钮"},
+    "18": {"text": "", "function": "图标"},
+    "19": {"text": "更多更多>", "function": "更多按钮"},
+    "20": {"text": "官方精选放心国闭眼入双杯摩卡可可碎片星冰乐大杯5.8折44.9元小静音进入", "function": "官方精选推荐"},
+    "21": {"text": "巴西烤肉饭脆皮鸡饭（财富美食城店）奥尔良烤鸡全腿招牌双拼饭兑换券·1张正在疯抢¥19.9¥48.88", "function": "巴西烤肉饭推荐"},
+    "22": {"text": "老乡鸡【3件套】小炒肉西红柿炒蛋套餐兑换券·1张即将抢光¥19.9¥26(3件套)小炒肉西红柿炒蛋", "function": "老乡鸡推荐"},
+    "23": {"text": "静音进入小静音进入", "function": "静音进入按钮"},
+    "24": {"text": "展开更多条件筛选", "function": "展开更多条件筛选按钮"},
+    "25": {"text": "神券商家", "function": "神券商家按钮"},
+    "26": {"text": "减配送费", "function": "减配送费按钮"},
+    "27": {"text": "首单立减", "function": "首单立减按钮"},
+    "28": {"text": "满赠活动", "function": "满赠活动按钮"},
+    "29": {"text": "KFC双堡糯元64", "function": "KFC推荐"},
+    "30": {"text": "更多选择按钮[神券:最高膨至20]肯德基宅急送（隆昌路二店）4.6分月售2000+人均¥28商家自配起送¥20配送约¥330分钟2.0km高折扣最近3小时13人下单刚刚有用户看过肯德基宅急送(隆昌路二店)", "function": "更多选择按钮"},
+    "31": {"text": "更多选择按钮", "function": "更多选择按钮"},
+    "32": {"text": "高折扣", "function": "高折扣标签"},
+    "33": {"text": "最近3小时13人下单", "function": "最近下单信息"},
+    "34": {"text": "刚刚有用户看过", "function": "用户浏览信息"},
+    "35": {"text": "[神券:最高膨至20]", "function": "神券信息"},
+    "36": {"text": "西域风情·馕饼绝配大盘鲜鸡(第8档口普陀山美食城店)5.0分月售100+人均¥12起送¥1525分钟870m更多折扣，进店看看18减1530减2055减22为您推荐专属美食品类查看更多广告x抢100元券>精选好食｜为您推荐专属美食品类购物车", "function": "西域风情推荐"},
+    "37": {"text": "", "function": "广告关闭按钮"},
+    "38": {"text": "外卖首页会员订单更多神", "function": "底部导航栏"},
+    "39": {"text": "外卖首页", "function": "外卖首页按钮"},
+    "40": {"text": "会员神", "function": "会员按钮"},
+    "41": {"text": "订单", "function": "订单按钮"},
+    "42": {"text": "更多", "function": "更多按钮"}
+}

@@ -1,0 +1,207 @@
+2024-07-06 22:32:39 - - - - - 2024-07-06 22:32:39 - Info: Analyst is analysing the task
+2024-07-06 22:32:39 - - - - - 2024-07-06 22:32:41 - Analyst:
+2024-07-06 22:32:41 - - - - - 2024-07-06 22:32:41 - {
+  "result": [
+    "Check whether the post's content is correctly displayed on the homepage",
+    "Check whether the post's content matches 'Hello everyone'"
+  ]
+}
+2024-07-06 22:32:41 - - - - - 2024-07-06 22:32:41 - Info: Analyst is analysing the task
+2024-07-06 22:32:41 - - - - - 2024-07-06 22:32:43 - Analyst:
+2024-07-06 22:32:41 - - - - - 2024-07-06 22:32:43 - {
+    "target": ["The content of the post"]
+}
+2024-07-06 22:32:43 - - - - - 2024-07-06 22:32:43 - Info: Observer observes image ./RQ2/22/drive/0_SoM_rule.png
+2024-07-06 22:32:43 - - - - - 2024-07-06 22:32:52 - Observer:
+2024-07-06 22:32:43 - - - - - 2024-07-06 22:32:52 - {
+    "Page Type": "Homepage displaying posts and user interactions",
+    "Widgets": [16, 17, 18, 22]
+}
+2024-07-06 22:32:43 - - - - - 2024-07-06 22:32:53 - Info: Observer observes image ./RQ2/22/test/Task0.Page0.Widget0.png
+2024-07-06 22:32:43 - - - - - 2024-07-06 22:32:56 - Observer:
+2024-07-06 22:32:52 - - - - - 2024-07-06 22:32:56 - {
+  "name": "Post text widget",
+  "description": "The widget displays the text 'Jonathan Biker is in Los Angeles, CA,'. The content of the post is non-interactive."
+}
+2024-07-06 22:32:52 - - - - - 2024-07-06 22:32:57 - Info: Observer observes image ./RQ2/22/test/Task0.Page0.Widget1.png
+2024-07-06 22:32:53 - - - - - 2024-07-06 22:33:01 - Observer:
+2024-07-06 22:32:53 - - - - - 2024-07-06 22:33:01 - {"name": "United", "description": "The widget displays the text 'United' in a bold, black font. The content of the post is 'United'. It is non-interactive and serves the function of posting text."}
+2024-07-06 22:32:53 - - - - - 2024-07-06 22:33:01 - Info: Observer observes image ./RQ2/22/test/Task0.Page0.Widget2.png
+2024-07-06 22:32:56 - - - - - 2024-07-06 22:33:05 - Observer:
+2024-07-06 22:32:56 - - - - - 2024-07-06 22:33:05 - {
+  "name": "States post widget",
+  "description": "The widget displays the text 'States.' in a bold, black font. The content of the post is 'States.'."
+}
+2024-07-06 22:32:57 - - - - - 2024-07-06 22:33:05 - Info: Observer observes image ./RQ2/22/test/Task0.Page0.Widget3.png
+2024-07-06 22:32:57 - - - - - 2024-07-06 22:33:08 - Observer:
+2024-07-06 22:32:57 - - - - - 2024-07-06 22:33:08 - {
+    "name": "Post text with 'See more' link",
+    "description": "The widget displays a post with the content 'Kawazaki Ninja ZX-10R the two brothers' followed by a 'See more' link."
+}
+2024-07-06 22:33:01 - - - - - 2024-07-06 22:33:08 - Info: Observer observes image ./RQ2/22/drive/0.png
+2024-07-06 22:33:01 - - - - - 2024-07-06 22:33:15 - Observer:
+2024-07-06 22:33:01 - - - - - 2024-07-06 22:33:15 - {"Page Information": {"The content of the post": ["Kawasaki Ninja ZX-10R the two brothers"]}}
+2024-07-06 22:33:01 - - - - - 2024-07-06 22:33:15 - Info: Observer observes image ./RQ2/22/drive/1_SoM_rule.png
+2024-07-06 22:33:01 - - - - - 2024-07-06 22:33:21 - Observer:
+2024-07-06 22:33:05 - - - - - 2024-07-06 22:33:21 - {
+    "Page Type": "Create post screen where users can compose and share new posts",
+    "Widgets": []
+}
+2024-07-06 22:33:05 - - - - - 2024-07-06 22:33:21 - Info: Observer observes image ./RQ2/22/drive/1.png
+2024-07-06 22:33:05 - - - - - 2024-07-06 22:33:26 - Observer:
+2024-07-06 22:33:05 - - - - - 2024-07-06 22:33:26 - {
+    "Page Information": {
+        "The content of the post": ["What's on your mind?"]
+    }
+}
+2024-07-06 22:33:05 - - - - - 2024-07-06 22:33:26 - Info: Observer observes image ./RQ2/22/drive/2_SoM_rule.png
+2024-07-06 22:33:08 - - - - - 2024-07-06 22:33:30 - Observer:
+2024-07-06 22:33:08 - - - - - 2024-07-06 22:33:30 - {
+    "Page Type": "Create post page where users can compose and customize a new post",
+    "Widgets": [8]
+}
+2024-07-06 22:33:08 - - - - - 2024-07-06 22:33:30 - Info: Observer observes image ./RQ2/22/test/Task0.Page2.Widget0.png
+2024-07-06 22:33:08 - - - - - 2024-07-06 22:33:33 - Observer:
+2024-07-06 22:33:09 - - - - - 2024-07-06 22:33:33 - {
+  "name": "Input box",
+  "description": "The widget is an input box with the typed text 'Hello everyone'. The content of the post is 'Hello everyone'."
+}
+2024-07-06 22:33:15 - - - - - 2024-07-06 22:33:33 - Info: Observer observes image ./RQ2/22/drive/2.png
+2024-07-06 22:33:15 - - - - - 2024-07-06 22:33:37 - Observer:
+2024-07-06 22:33:15 - - - - - 2024-07-06 22:33:37 - {
+    "Page Information": {
+        "The content of the post": ["Hello everyone"]
+    }
+}
+2024-07-06 22:33:15 - - - - - 2024-07-06 22:33:37 - Info: Observer observes image ./RQ2/22/drive/3_SoM_rule.png
+2024-07-06 22:33:15 - - - - - 2024-07-06 22:33:43 - Observer:
+2024-07-06 22:33:21 - - - - - 2024-07-06 22:33:43 - {
+    "Page Type": "Homepage of the app displaying posts and user interactions",
+    "Widgets": [15, 29]
+}
+2024-07-06 22:33:21 - - - - - 2024-07-06 22:33:43 - Info: Observer observes image ./RQ2/22/test/Task0.Page3.Widget0.png
+2024-07-06 22:33:21 - - - - - 2024-07-06 22:33:46 - Observer:
+2024-07-06 22:33:21 - - - - - 2024-07-06 22:33:46 - {
+    "name": "Post content widget",
+    "description": "The widget displays the text 'Hello every' and its function is to post content."
+}
+2024-07-06 22:33:21 - - - - - 2024-07-06 22:33:46 - Info: Observer observes image ./RQ2/22/test/Task0.Page3.Widget1.png
+2024-07-06 22:33:26 - - - - - 2024-07-06 22:33:49 - Observer:
+2024-07-06 22:33:26 - - - - - 2024-07-06 22:33:49 - {
+  "name": "Post content",
+  "description": "The content of the post is 'Kawazaki Ninja ZX-10R the two brothers'. There is also a 'See more' link to view additional content."
+}
+2024-07-06 22:33:26 - - - - - 2024-07-06 22:33:49 - Info: Observer observes image ./RQ2/22/drive/3.png
+2024-07-06 22:33:26 - - - - - 2024-07-06 22:33:55 - Observer:
+2024-07-06 22:33:26 - - - - - 2024-07-06 22:33:55 - {"Page Information": {"The content of the post": ["Hello every", "Kawasaki Ninja ZX-10R the two brothers"]}}
+2024-07-06 22:33:30 - - - - - 2024-07-06 22:33:55 - Info: TestTaskChecker is checking the extracted information
+2024-07-06 22:33:30 - - - - - 2024-07-06 22:33:58 - TestTaskChecker:
+2024-07-06 22:33:30 - - - - - 2024-07-06 22:33:58 - {
+  "judgement": "No",
+  "reason": "The post content is not correctly displayed on the homepage. After the user typed 'Hello everyone' and tapped the 'POST' button, the homepage displayed 'Hello every' instead of the full text 'Hello everyone'. This indicates that the post content is being truncated or not fully rendered on the homepage. The specific issue was encountered on Page 3, where the widget displayed 'Hello every' instead of 'Hello everyone'."
+}
+2024-07-06 22:33:30 - - - - - 2024-07-06 22:33:58 - Info: Analyst is analysing the task
+2024-07-06 22:33:30 - - - - - 2024-07-06 22:33:59 - Analyst:
+2024-07-06 22:33:33 - - - - - 2024-07-06 22:33:59 - {
+    "target": ["The content of the post"]
+}
+2024-07-06 22:33:33 - - - - - 2024-07-06 22:33:59 - Info: Observer observes image ./RQ2/22/drive/0_SoM_rule.png
+2024-07-06 22:33:33 - - - - - 2024-07-06 22:34:07 - Observer:
+2024-07-06 22:33:33 - - - - - 2024-07-06 22:34:07 - {
+    "Page Type": "Social media home feed page displaying posts and navigation options",
+    "Widgets": [16, 17, 18, 22]
+}
+2024-07-06 22:33:33 - - - - - 2024-07-06 22:34:07 - Info: Observer observes image ./RQ2/22/test/Task1.Page0.Widget0.png
+2024-07-06 22:33:37 - - - - - 2024-07-06 22:34:11 - Observer:
+2024-07-06 22:33:37 - - - - - 2024-07-06 22:34:11 - {
+  "name": "Post text widget",
+  "description": "The widget displays the text 'Jonathan Biker is in Los Angeles, CA,'. The content of the post is non-interactive."
+}
+2024-07-06 22:33:37 - - - - - 2024-07-06 22:34:11 - Info: Observer observes image ./RQ2/22/test/Task1.Page0.Widget1.png
+2024-07-06 22:33:37 - - - - - 2024-07-06 22:34:14 - Observer:
+2024-07-06 22:33:37 - - - - - 2024-07-06 22:34:14 - {
+  "name": "United",
+  "description": "The widget displays the text 'United' in a bold, black font. The content of the post is 'United'. It is non-interactive and serves the function of posting text."
+}
+2024-07-06 22:33:43 - - - - - 2024-07-06 22:34:14 - Info: Observer observes image ./RQ2/22/test/Task1.Page0.Widget2.png
+2024-07-06 22:33:43 - - - - - 2024-07-06 22:34:18 - Observer:
+2024-07-06 22:33:43 - - - - - 2024-07-06 22:34:18 - {
+  "name": "States text post",
+  "description": "The widget displays the text 'States.' in a bold, black font. The content of the post is 'States.'."
+}
+2024-07-06 22:33:43 - - - - - 2024-07-06 22:34:18 - Info: Observer observes image ./RQ2/22/test/Task1.Page0.Widget3.png
+2024-07-06 22:33:43 - - - - - 2024-07-06 22:34:21 - Observer:
+2024-07-06 22:33:46 - - - - - 2024-07-06 22:34:21 - {
+  "name": "Post text with 'See more' link",
+  "description": "The widget displays a post with the content 'Kawazaki Ninja ZX-10R the two brothers' followed by a 'See more' link."
+}
+2024-07-06 22:33:46 - - - - - 2024-07-06 22:34:21 - Info: Observer observes image ./RQ2/22/drive/0.png
+2024-07-06 22:33:46 - - - - - 2024-07-06 22:34:28 - Observer:
+2024-07-06 22:33:46 - - - - - 2024-07-06 22:34:28 - {
+    "Page Information": {
+        "The content of the post": ["Kawasaki Ninja ZX-10R the two brothers"]
+    }
+}
+2024-07-06 22:33:46 - - - - - 2024-07-06 22:34:28 - Info: Observer observes image ./RQ2/22/drive/1_SoM_rule.png
+2024-07-06 22:33:49 - - - - - 2024-07-06 22:34:32 - Observer:
+2024-07-06 22:33:49 - - - - - 2024-07-06 22:34:32 - {
+    "Page Type": "Create post screen where users can compose and share new posts",
+    "Widgets": [8]
+}
+2024-07-06 22:33:49 - - - - - 2024-07-06 22:34:32 - Info: Observer observes image ./RQ2/22/test/Task1.Page1.Widget0.png
+2024-07-06 22:33:49 - - - - - 2024-07-06 22:34:36 - Observer:
+2024-07-06 22:33:50 - - - - - 2024-07-06 22:34:36 - {
+  "name": "Input box",
+  "description": "The widget is an input box with the placeholder text 'What's on your mind?' where users can type the content of the post."
+}
+2024-07-06 22:33:55 - - - - - 2024-07-06 22:34:36 - Info: Observer observes image ./RQ2/22/drive/1.png
+2024-07-06 22:33:55 - - - - - 2024-07-06 22:34:41 - Observer:
+2024-07-06 22:33:55 - - - - - 2024-07-06 22:34:41 - {
+    "Page Information": {
+        "The content of the post": ["What's on your mind?"]
+    }
+}
+2024-07-06 22:33:55 - - - - - 2024-07-06 22:34:41 - Info: Observer observes image ./RQ2/22/drive/2_SoM_rule.png
+2024-07-06 22:33:58 - - - - - 2024-07-06 22:34:45 - Observer:
+2024-07-06 22:33:58 - - - - - 2024-07-06 22:34:45 - {
+    "Page Type": "Post creation page where users can create and customize a new post",
+    "Widgets": [8]
+}
+2024-07-06 22:33:58 - - - - - 2024-07-06 22:34:46 - Info: Observer observes image ./RQ2/22/test/Task1.Page2.Widget0.png
+2024-07-06 22:33:58 - - - - - 2024-07-06 22:34:49 - Observer:
+2024-07-06 22:33:59 - - - - - 2024-07-06 22:34:49 - {
+    "name": "Input box",
+    "description": "The widget is an input box with typed text 'Hello everyone'. The content of the post is 'Hello everyone'."
+}
+2024-07-06 22:33:59 - - - - - 2024-07-06 22:34:49 - Info: Observer observes image ./RQ2/22/drive/2.png
+2024-07-06 22:33:59 - - - - - 2024-07-06 22:34:55 - Observer:
+2024-07-06 22:33:59 - - - - - 2024-07-06 22:34:55 - {
+    "Page Information": {
+        "The content of the post": ["Hello everyone"]
+    }
+}
+2024-07-06 22:34:00 - - - - - 2024-07-06 22:34:55 - Info: Observer observes image ./RQ2/22/drive/3_SoM_rule.png
+2024-07-06 22:34:07 - - - - - 2024-07-06 22:34:59 - Observer:
+2024-07-06 22:34:07 - - - - - 2024-07-06 22:34:59 - {
+    "Page Type": "Social media feed page displaying posts and user interactions",
+    "Widgets": [15]
+}
+2024-07-06 22:34:07 - - - - - 2024-07-06 22:34:59 - Info: Observer observes image ./RQ2/22/test/Task1.Page3.Widget0.png
+2024-07-06 22:34:07 - - - - - 2024-07-06 22:35:02 - Observer:
+2024-07-06 22:34:08 - - - - - 2024-07-06 22:35:02 - {
+  "name": "Post content widget",
+  "description": "The widget displays the text 'Hello every' and its function is to post content."
+}
+2024-07-06 22:34:11 - - - - - 2024-07-06 22:35:02 - Info: Observer observes image ./RQ2/22/drive/3.png
+2024-07-06 22:34:11 - - - - - 2024-07-06 22:35:09 - Observer:
+2024-07-06 22:34:11 - - - - - 2024-07-06 22:35:09 - {
+    "Page Information": {
+        "The content of the post": ["Hello every", "Kawasaki Ninja ZX-10R the two brothers"]
+    }
+}
+2024-07-06 22:34:11 - - - - - 2024-07-06 22:35:09 - Info: TestTaskChecker is checking the extracted information
+2024-07-06 22:34:11 - - - - - 2024-07-06 22:35:12 - TestTaskChecker:
+2024-07-06 22:34:14 - - - - - 2024-07-06 22:35:12 - {
+  "judgement": "No",
+  "reason": "The post's content does not fully match 'Hello everyone'. After the user typed 'Hello everyone' in the input box and tapped the 'POST' button, the content displayed on the social media feed page (Page 3) was 'Hello every'. This indicates that the post was truncated or not fully displayed. The specific issue was encountered on Page 3 where the post content was not fully shown."
+}

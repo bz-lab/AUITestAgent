@@ -1,0 +1,76 @@
+2024-07-03 10:54:28 - - - - 2024-07-03 10:54:29 - Info: Analyst is analysing the task
+2024-07-03 10:54:29 - - - - 2024-07-03 10:54:30 - Analyst:
+2024-07-03 10:54:29 - - - - 2024-07-03 10:54:30 - {"drive_task": ["Click the Like button on the first post"]}
+2024-07-03 10:54:30 - - - - 2024-07-03 10:54:40 - Info: Observer observes image ./RQ1/2024-07-03_10-54-27/drive/0_SoM_rule.png
+2024-07-03 10:54:30 - - - - 2024-07-03 10:54:58 - Observer:
+2024-07-03 10:54:40 - - - - 2024-07-03 10:54:58 - {
+  "0": {"text": "Search", "function": "Search button"},
+  "1": {"text": "Messaging", "function": "Messaging button"},
+  "2": {"text": "Facebooklogofacebook", "function": "Facebook logo, non-interactive"},
+  "3": {"text": "", "function": "Home button, selected"},
+  "4": {"text": "2", "function": "Notifications button with 2 notifications"},
+  "5": {"text": "", "function": "Watch button"},
+  "6": {"text": "", "function": "Groups button"},
+  "7": {"text": "", "function": "Profile button"},
+  "8": {"text": "", "function": "Menu button"},
+  "9": {"text": "Gotoprofile", "function": "Profile picture, non-interactive"},
+  "10": {"text": "MakeapostonFacebookWhat'sonyourmind?", "function": "Status update text box, placeholder"},
+  "11": {"text": "Photo/Video", "function": "Photo/Video button"},
+  "12": {"text": "Createstory+", "function": "Create story button"},
+  "13": {"text": "More", "function": "More options button"},
+  "14": {"text": "Hidepost", "function": "Hide post button"},
+  "15": {"text": "AppStoreProfilepicture3h", "function": "Profile picture of App Store, non-interactive"},
+  "16": {"text": "", "function": "Verified badge, non-interactive"},
+  "17": {"text": "aSeemorePullupchair.Thefamilyiswaiting，andwhat'sfordinner?…", "function": "Post text with 'See more' link"},
+  "18": {"text": "", "function": "Post image"},
+  "19": {"text": "27comments", "function": "Comments count, non-interactive"},
+  "20": {"text": "", "function": "Comments icon, non-interactive"},
+  "21": {"text": "Likebutton.Doubletapandholdtoreact.", "function": "Like button"},
+  "22": {"text": "Comment", "function": "Comment button"},
+  "23": {"text": "Share", "function": "Share button"},
+  "24": {"text": "More", "function": "More options button"},
+  "25": {"text": "Hidead", "function": "Hide ad button"},
+  "26": {"text": "", "function": "Close button"},
+  "27": {"text": "", "function": "Verified badge, non-interactive"},
+  "28": {"text": "ThermoFisherScientific", "function": "Page name, non-interactive"},
+  "29": {"text": "ThermoFisher", "function": "Profile picture of Thermo Fisher, non-interactive"},
+  "30": {"text": "Snonsorad", "function": "Sponsored label, non-interactive"}
+}
+2024-07-03 10:54:40 - - - - 2024-07-03 10:54:58 - Info: ActionSelector observes image ./RQ1/2024-07-03_10-54-27/drive/0_SoM_rule.png
+2024-07-03 10:54:41 - - - - 2024-07-03 10:55:03 - ActionSelector:
+2024-07-03 10:54:58 - - - - 2024-07-03 10:55:03 - {"action": "click", "target": "21", "reason": "Click the Like button on the first post"}
+2024-07-03 10:54:58 - - - - 2024-07-03 10:55:30 - Info: Observer observes image ./RQ1/2024-07-03_10-54-27/drive/1_SoM_rule.png
+2024-07-03 10:54:58 - - - - 2024-07-03 10:55:55 - Observer:
+2024-07-03 10:54:58 - - - - 2024-07-03 10:55:55 - {
+    "0": {"text": "Search", "function": "Search button"},
+    "1": {"text": "Messaging", "function": "Messaging button"},
+    "2": {"text": "Facebooklogofacebook", "function": "Facebook logo, non-interactive"},
+    "3": {"text": "", "function": "Home button, selected"},
+    "4": {"text": "2", "function": "Video notifications button with 2 notifications"},
+    "5": {"text": "", "function": "Friends button"},
+    "6": {"text": "", "function": "Profile button"},
+    "7": {"text": "", "function": "Notifications button"},
+    "8": {"text": "", "function": "Menu button"},
+    "9": {"text": "Gotoprofile", "function": "Profile picture, non-interactive"},
+    "10": {"text": "MakeapostonFacebookWhat'sonyourmind?", "function": "Post creation text box, placeholder"},
+    "11": {"text": "Photo/Video", "function": "Photo/Video button"},
+    "12": {"text": "Createstory+", "function": "Create story button"},
+    "13": {"text": "More", "function": "More options button"},
+    "14": {"text": "Hidepost", "function": "Hide post button"},
+    "15": {"text": "AppStoreProfilepicture3h", "function": "Profile picture and post time, non-interactive"},
+    "16": {"text": "", "function": "Verified badge, non-interactive"},
+    "17": {"text": "aSeemorePullupchair.Thefamilyiswaiting，andwhat'sfordinner?…", "function": "Post text with 'See more' link"},
+    "18": {"text": "", "function": "Post image"},
+    "19": {"text": "Youand27otherscomments", "function": "Post reactions summary"},
+    "20": {"text": "", "function": "Comments count"},
+    "21": {"text": "Likebutton,pressed.Doubletapandholdtochangereaction.", "function": "Like button, pressed"},
+    "22": {"text": "Comment", "function": "Comment button"},
+    "23": {"text": "Share", "function": "Share button"},
+    "24": {"text": "More", "function": "More options button"},
+    "25": {"text": "Hidead", "function": "Hide ad button"},
+    "26": {"text": "", "function": "Close ad button"},
+    "27": {"text": "", "function": "Verified badge, non-interactive"},
+    "28": {"text": "ThermoFisherScientific", "function": "Page name, non-interactive"},
+    "29": {"text": "ThermoFisher", "function": "Page logo, non-interactive"},
+    "30": {"text": "Snonsorad.", "function": "Sponsored label"}
+}

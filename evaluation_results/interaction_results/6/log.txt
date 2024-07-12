@@ -1,0 +1,396 @@
+2024-07-02 15:30:05 - - - - 2024-07-02 15:30:05 - Info: Analyst is analysing the task
+2024-07-02 15:30:05 - - - - 2024-07-02 15:30:08 - Analyst:
+2024-07-02 15:30:05 - - - - 2024-07-02 15:30:08 - {
+    "drive_task": [
+        "键入“门票”",
+        "点击搜索推荐中的“景点门票频道”",
+        "点击“景点”按钮",
+        "点击景点列表的第一个景点",
+        "点击查看景点的评分"
+    ]
+}
+2024-07-02 15:30:08 - - - - 2024-07-02 15:30:20 - Info: Observer observes image ./RQ1/2024-07-02_15-30-04/drive/0_SoM_rule.png
+2024-07-02 15:30:08 - - - - 2024-07-02 15:30:49 - Observer:
+2024-07-02 15:30:20 - - - - 2024-07-02 15:30:49 - {
+    "0": {"text": "互联宝地", "function": "Location indicator"},
+    "1": {"text": "扫一扫按钮", "function": "Scan button"},
+    "2": {"text": "上海迪士尼度假区搜索框，点击可搜索巴西烤肉饭脆皮鸡饭(外卖18减16", "function": "Search bar with placeholder text"},
+    "3": {"text": "搜索", "function": "Search button"},
+    "4": {"text": "外卖", "function": "Takeout button"},
+    "5": {"text": "小象超市自营", "function": "Supermarket button"},
+    "6": {"text": "酒店民宿", "function": "Hotel and lodging button"},
+    "7": {"text": "休闲玩乐", "function": "Leisure and entertainment button"},
+    "8": {"text": "看病买药", "function": "Medical and pharmacy button"},
+    "9": {"text": "团购", "function": "Group buying button"},
+    "10": {"text": "美食", "function": "Food button"},
+    "11": {"text": "超市便利", "function": "Convenience store button"},
+    "12": {"text": "火车票机票", "function": "Train and flight tickets button"},
+    "13": {"text": "电影演出", "function": "Movies and shows button"},
+    "14": {"text": "美团优选", "function": "Meituan preferred button"},
+    "15": {"text": "打车5折起", "function": "Taxi button"},
+    "16": {"text": "KTV", "function": "KTV button"},
+    "17": {"text": "免费水果", "function": "Free fruit button"},
+    "18": {"text": "新奇潮店ACháo", "function": "Trendy store button"},
+    "19": {"text": "美团优选明日达超市¥2.99¥3.99秒杀5包入派新装¥6.99¥8.99", "function": "Product promotion in Meituan preferred"},
+    "20": {"text": "特价团爆款热抢中鲜牛奶ALDI超值FRESH奥乐齐净含量:950毫升ALDI奥乐齐超市·美食(超·¥8.12¥8.59已减0.47元", "function": "Product promotion in special group buying"},
+    "21": {"text": "团购RARTYLuckin<500m瑞幸咖啡(超大杯)轻咖椰子水半年售34万+资质与规则", "function": "Product promotion in group buying"},
+    "22": {"text": "美团直播小4258观看全场400无套路不踩坑年售1000+按摩SPA茶水饮料免费¥46.00了解(养生·按摩·SP.拉指腹私密", "function": "Meituan live stream promotion"},
+    "23": {"text": "外卖", "function": "Takeout button"},
+    "24": {"text": "", "function": "Icon or image"},
+    "25": {"text": "优选", "function": "Preferred button"},
+    "26": {"text": "消息", "function": "Messages button"},
+    "27": {"text": "购物车", "function": "Shopping cart button"},
+    "28": {"text": "我的", "function": "My account button"},
+    "29": {"text": "推荐", "function": "Recommendation button"}
+}
+2024-07-02 15:30:20 - - - - 2024-07-02 15:30:49 - Info: ActionSelector observes image ./RQ1/2024-07-02_15-30-04/drive/0_SoM_rule.png
+2024-07-02 15:30:21 - - - - 2024-07-02 15:30:59 - ActionSelector:
+2024-07-02 15:30:49 - - - - 2024-07-02 15:30:59 - {"action": "type", "target": "2", "text": "门票", "reason": "To search for tickets"}
+2024-07-02 15:30:49 - - - - 2024-07-02 15:31:28 - 存在浮层，使用inspect
+2024-07-02 15:30:49 - - - - 2024-07-02 15:31:29 - Info: Observer observes image ./RQ1/2024-07-02_15-30-04/drive/1_SoM_inspect.png
+2024-07-02 15:30:49 - - - - 2024-07-02 15:31:51 - Observer:
+2024-07-02 15:30:50 - - - - 2024-07-02 15:31:51 - {
+  "0": {
+    "text": "X",
+    "function": "Close button, not selected"
+  },
+  "1": {
+    "text": "景点门票频道",
+    "function": "Textline, non-clickable"
+  },
+  "2": {
+    "text": "门票",
+    "function": "Search bar with placeholder text, non-clickable"
+  },
+  "3": {
+    "text": "门票预约",
+    "function": "Search bar with placeholder text, non-clickable"
+  },
+  "4": {
+    "text": "上海迪士尼乐园门票",
+    "function": "Search bar with placeholder text, non-clickable"
+  },
+  "5": {
+    "text": "东方明珠广播电视塔浏览过景点高空观景｜陆家嘴｜4.3分",
+    "function": "List item with text, clickable"
+  },
+  "6": {
+    "text": "4.5km",
+    "function": "Distance indicator, non-clickable"
+  },
+  "7": {
+    "text": "锦江乐园浏览过景点游乐场｜莲花路/南方商城｜4.3分",
+    "function": "List item with text, clickable"
+  },
+  "8": {
+    "text": "18.6km",
+    "function": "Distance indicator, non-clickable"
+  },
+  "9": {
+    "text": "上海野生动物园门票",
+    "function": "Search bar with placeholder text, non-clickable"
+  },
+  "10": {
+    "text": "灵隐寺门票",
+    "function": "Search bar with placeholder text, non-clickable"
+  },
+  "11": {
+    "text": "上海博物馆门票预约",
+    "function": "Search bar with placeholder text, non-clickable"
+  },
+  "12": {
+    "text": "上海金茂大厦88层观光厅景点高空观景｜陆家嘴｜4.1分",
+    "function": "List item with text, clickable"
+  },
+  "13": {
+    "text": "4.6km",
+    "function": "Distance indicator, non-clickable"
+  },
+  "14": {
+    "text": "门票保护套",
+    "function": "Search bar with placeholder text, non-clickable"
+  },
+  "15": {
+    "text": "上海海昌海洋公园门票",
+    "function": "Search bar with placeholder text, non-clickable"
+  },
+  "16": {
+    "text": "查找全部相关结果",
+    "function": "Button, clickable"
+  },
+  "17": {
+    "text": "ADB Keyboard{ON}",
+    "function": "Keyboard status indicator, non-clickable"
+  }
+}
+2024-07-02 15:30:59 - - - - 2024-07-02 15:31:51 - Info: ActionSelector observes image ./RQ1/2024-07-02_15-30-04/drive/1_SoM_inspect.png
+2024-07-02 15:30:59 - - - - 2024-07-02 15:31:57 - ActionSelector:
+2024-07-02 15:31:20 - - - - 2024-07-02 15:31:57 - {"action": "click", "target": "1", "reason": "Clicking on the recommended '景点门票频道' to proceed with the task"}
+2024-07-02 15:31:28 - - - - 2024-07-02 15:32:28 - Info: Observer observes image ./RQ1/2024-07-02_15-30-04/drive/2_SoM_rule.png
+2024-07-02 15:31:29 - - - - 2024-07-02 15:33:15 - Observer:
+2024-07-02 15:31:29 - - - - 2024-07-02 15:33:15 - {
+    "0": {"text": "上海动物园上海", "function": "Typed text indicating the search query."},
+    "1": {"text": "地图", "function": "Button to access the map feature."},
+    "2": {"text": "美团门票", "function": "Title text indicating the app section."},
+    "3": {"text": "上海迪士尼", "function": "Text indicating a specific attraction."},
+    "4": {"text": "暑期大放价特惠门票抢不停", "function": "Promotional banner text."},
+    "5": {"text": "景点", "function": "Button to access the attractions section."},
+    "6": {"text": "畅快玩水", "function": "Button to access water activities."},
+    "7": {"text": "一日游", "function": "Button to access one-day tour options."},
+    "8": {"text": "免费玩0元", "function": "Button to access free activities."},
+    "9": {"text": "自由行", "function": "Button to access self-guided tours."},
+    "10": {"text": "自然风光", "function": "Button to access natural scenery attractions."},
+    "11": {"text": "名胜古迹", "function": "Button to access historical sites."},
+    "12": {"text": "观光街区", "function": "Button to access sightseeing districts."},
+    "13": {"text": "订酒店", "function": "Button to access hotel booking."},
+    "14": {"text": "租车", "function": "Button to access car rental services."},
+    "15": {"text": "全部3折起【早鸟票】浦江夏日嘉年华-【不限人群票】水世界全天票¥29.9起¥989折起上海迪士尼度假区-【成人票】4人1日票¥2619起¥2876特价团全部)(早鸟票)浦江夏日嘉年华-…区-(成人票\\)\\u202u6", "function": "Promotional text for discounted tickets."},
+    "16": {"text": "爆团团-上海江苏特惠亲子游点击进入旅行直播口爆团团-上\\u020-6满100-15.直播中最高立减40元153609东方盐湖城63鸟成人平分享领券小妮199元49.5进入直播陌的出进入上海迪士尼全部商品满50-6！分享直播间满200-401", "function": "Promotional text for live travel deals."},
+    "17": {"text": "3折起【早鸟票】浦江夏日嘉年华-【不限人群票】水世界全天票¥29.9起¥98(早鸟票)浦江夏日嘉年华-…", "function": "Promotional text for early bird tickets."},
+    "18": {"text": "9折起上海迪士尼度假区-【成人票】4人1日票¥2619起¥2876区-(成人票\\)\\u202u6", "function": "Promotional text for discounted Disney tickets."},
+    "19": {"text": "点击进入", "function": "Button to enter the live travel deals section."},
+    "20": {"text": "嗨住暑假领100现金", "function": "Promotional text for summer cash rewards."},
+    "21": {"text": "假期提前订酒店2折起%", "function": "Promotional text for early hotel booking discounts."},
+    "22": {"text": "美团趣玩榜", "function": "Title text for the fun activities ranking section."},
+    "23": {"text": "查看全部查看全部>", "function": "Button to view all items in the section."},
+    "24": {"text": "室内玩乐榜22.5万人近期游玩过室内玩乐榜>", "function": "Button to view the indoor activities ranking."},
+    "25": {"text": "寻宝博物馆4.7万人近期游玩过寻宝博物馆>", "function": "Button to view the treasure hunt museum ranking."},
+    "26": {"text": "情侣约会榜45.5万人近期游玩过情侣约会榜>", "function": "Button to view the couples' date ranking."},
+    "27": {"text": "必玩乐园榜", "function": "Button to view the must-visit parks ranking."},
+    "28": {"text": "线下实景电影", "function": "Button to access offline real-scene movies."},
+    "29": {"text": "全部景点", "function": "Button to view all attractions."},
+    "30": {"text": "全部商圈", "function": "Button to view all business districts."},
+    "31": {"text": "默认排序", "function": "Button to sort by default order."},
+    "32": {"text": "离我最近", "function": "Button to sort by proximity."},
+    "33": {"text": "好评优先", "function": "Button to sort by highest ratings."},
+    "34": {"text": "清凉玩水", "function": "Button to access cool water activities."},
+    "35": {"text": "亲子遛娃", "function": "Button to access parent-child activities."},
+    "36": {"text": "遇见动植物", "function": "Button to access animal and plant encounters."},
+    "37": {"text": "只看上海", "function": "Button to filter results to only Shanghai."},
+    "38": {"text": "露营野餐规则", "function": "Button to access camping and picnic rules."},
+    "39": {"text": "首页", "function": "Button to go to the homepage."},
+    "40": {"text": "收藏", "function": "Button to access the favorites section."},
+    "41": {"text": "订单", "function": "Button to access the orders section."},
+    "42": {"text": "全网", "function": "Button to search the entire network."},
+    "43": {"text": "北京环球度假区42.6万条评价去景点", "function": "Button to view the Universal Beijing Resort."},
+    "44": {"text": "", "function": "Icon or image, likely non-interactive."},
+    "45": {"text": "去景点>", "function": "Button to go to the attraction."},
+    "46": {"text": "", "function": "Icon or image, likely non-interactive."},
+    "47": {"text": "36万冬证价", "function": "Text indicating a promotional price."},
+    "48": {"text": "", "function": "Icon or image, likely non-interactive."}
+}
+2024-07-02 15:31:29 - - - - 2024-07-02 15:33:15 - Info: ActionSelector observes image ./RQ1/2024-07-02_15-30-04/drive/2_SoM_rule.png
+2024-07-02 15:31:51 - - - - 2024-07-02 15:33:27 - ActionSelector:
+2024-07-02 15:31:51 - - - - 2024-07-02 15:33:27 - {"action": "click", "target": "5", "reason": "Clicking the '景点' button to access the attractions section"}
+2024-07-02 15:31:51 - - - - 2024-07-02 15:33:56 - Info: Observer observes image ./RQ1/2024-07-02_15-30-04/drive/3_SoM_rule.png
+2024-07-02 15:31:51 - - - - 2024-07-02 15:34:33 - Observer:
+2024-07-02 15:31:52 - - - - 2024-07-02 15:34:33 - {
+    "0": {"text": "", "function": "Back button"},
+    "1": {"text": "G", "function": "Share button"},
+    "2": {"text": "景点/门票", "function": "Search bar with placeholder text"},
+    "3": {"text": "景点", "function": "Selected tab button for attractions"},
+    "4": {"text": "全部商圈", "function": "Filter button for all business districts"},
+    "5": {"text": "离我最近", "function": "Filter button for nearest attractions"},
+    "6": {"text": "好评优先", "function": "Filter button for highest rated attractions"},
+    "7": {"text": "公园游乐场", "function": "Category button for parks and playgrounds"},
+    "8": {"text": "名胜古迹", "function": "Category button for historical sites"},
+    "9": {"text": "其他景点", "function": "Category button for other attractions"},
+    "10": {"text": "自然风光", "function": "Category button for natural scenery"},
+    "11": {"text": "高空景观", "function": "Category button for high-altitude views"},
+    "12": {"text": "上海迪士尼度假区上海·毕业旅行榜·第1名4.6分41.9万条评价距你19.3km迪士尼立减100元随买随用门票¥549起上海迪士尼度假区优惠￥1854¥3146【礼宾服务】【不限人群】1日票+FP+快速入园+VIP烟花观赏区+花车优惠￥1501¥1499【不限人群票】12项快速通道+园内导览15项+3演出★上海·毕业旅行榜·第1名距你19.3km｜旗舰店优惠¥1854¥3146(礼宾服务)(不限人群)1日票+Fp+…优惠¥1501¥1499(不限人群票)12项快速通道+园内…", "function": "First attraction listing with details and ratings"},
+    "13": {"text": "上海之巅观光厅(4A)上海·必玩人气榜·第14名4.3分2.6万条评价距你4.8km陆家嘴随买随用门票¥180起优惠￥15¥273【成人票】118层观光厅票+126层阻尼器演绎票+楼型冰激凌票优惠¥15限时特惠¥273(成人票)118层观光厅票+12:", "function": "Second attraction listing with details and ratings"},
+    "14": {"text": "上海欢乐谷(4A)上海·必玩人气榜·第3名4.8分21.1万条评价距你35.6km佘山随买随用门票¥150起优惠￥189¥499【不限人群】上海欢乐谷金卡¥999【不限人群】上海欢乐谷+上海玛雅海滩水公园畅游年卡Ey迪盒节快乐充电ONER热品/木子弹/烫品07.13赵珂迎一07.20张远距你35.6km｜佘山王栋鑫07.27TZZT优惠¥189精选好货¥499(不限人群)上海欢乐谷金卡¥999(不限人群)上海欢乐谷+上海玛雅海·", "function": "Third attraction listing with details and ratings"},
+    "15": {"text": "爆团团旅行上海江苏满50-6满100-15上海野生动物园最高立减40元特惠亲子游49.5元起", "function": "Advertisement banner"},
+    "16": {"text": "上海金茂大厦88层观光厅(4A)上海·新热网红榜·第7名", "function": "Fourth attraction listing with details and ratings"}
+}
+2024-07-02 15:31:57 - - - - 2024-07-02 15:34:33 - Info: ActionSelector observes image ./RQ1/2024-07-02_15-30-04/drive/3_SoM_rule.png
+2024-07-02 15:31:57 - - - - 2024-07-02 15:34:43 - ActionSelector:
+2024-07-02 15:32:12 - - - - 2024-07-02 15:34:43 - {"action": "click", "target": "12", "reason": "Clicking on the first attraction in the list as specified in the task"}
+2024-07-02 15:32:28 - - - - 2024-07-02 15:35:15 - The command is: adb shell uiautomator dump /sdcard/uidump.xml > nul 2>&1, and the result is: TimeoutExpired(['cmd', '/c', 'adb shell uiautomator dump /sdcard/uidump.xml > nul 2>&1'], 10)
+2024-07-02 15:32:28 - - - - 2024-07-02 15:35:15 - Error occurred when getting dom tree: Command '['cmd', '/c', 'adb shell uiautomator dump /sdcard/uidump.xml > nul 2>&1']' timed out after 10 seconds
+2024-07-02 15:32:29 - - - - 2024-07-02 15:35:15 - XML获取失败，使用inspect
+2024-07-02 15:33:15 - - - - 2024-07-02 15:35:19 - Info: Observer observes image ./RQ1/2024-07-02_15-30-04/drive/4_SoM_inspect.png
+2024-07-02 15:33:15 - - - - 2024-07-02 15:35:50 - Observer:
+2024-07-02 15:33:15 - - - - 2024-07-02 15:35:50 - {
+    "0": {"text": "", "function": "Status bar"},
+    "1": {"text": "", "function": "Icon button (share)"},
+    "2": {"text": "", "function": "Icon button (back)"},
+    "3": {"text": "游乐场", "function": "Search bar with typed text"},
+    "4": {"text": "", "function": "Icon button (favorite)"},
+    "5": {"text": "", "function": "Icon button (more options)"},
+    "6": {"text": "", "function": "Icon button (voice search)"},
+    "7": {"text": "封面真实晒图", "function": "Text label"},
+    "8": {"text": "相册园内巡必打卡项目就在上海迪±尼度假区", "function": "Text label"},
+    "9": {"text": "", "function": "Notification icon"},
+    "10": {"text": "部分日期有售馨风险,库存有限,快快囤起来啊！上海迪士尼度假区有优待政策>景点简介>上海>上海·毕业旅行榜·第1名)趣玩榜", "function": "Notification banner"},
+    "11": {"text": "4.642万评价", "function": "Rating summary"},
+    "12": {"text": "今日开放08:30-21:30两小时内游客量适中", "function": "Opening hours and visitor information"},
+    "13": {"text": "距您驾车26.8公里,约31分钟浦东新区川沙镇黄赵路310号地图打车", "function": "Location and distance information"},
+    "14": {"text": "iiiii", "function": "Rating stars"},
+    "15": {"text": "热点/攻略", "function": "Tab button (selected)"},
+    "16": {"text": "必玩项目", "function": "Tab button (not selected)"},
+    "17": {"text": "", "function": "Image (recommended attraction)"},
+    "18": {"text": "", "function": "Image (recommended attraction)"},
+    "19": {"text": "", "function": "Image (recommended attraction)"},
+    "20": {"text": "官方攻略3.7w人", "function": "Text label (recommendation count)"},
+    "21": {"text": "8.4w人推荐官方攻略", "function": "Text label (recommendation count)"},
+    "22": {"text": "官方攻略1.9w人推荐", "function": "Text label (recommendation count)"},
+    "23": {"text": "乐园门票怎么买", "function": "Text label (guide title)"},
+    "24": {"text": "亲子攻略:带始", "function": "Text label (guide title)"},
+    "25": {"text": "迪士尼必吃餐品！", "function": "Text label (guide title)"},
+    "26": {"text": "领惊喜豪礼", "function": "Button (claim surprise gift)"},
+    "27": {"text": "点击进入", "function": "Button (click to enter)"},
+    "28": {"text": "门票", "function": "Section title"},
+    "29": {"text": "成人", "function": "Button (adult ticket)"},
+    "30": {"text": "订明日", "function": "Button (book for tomorrow)"},
+    "31": {"text": "学生", "function": "Button (student ticket)"},
+    "32": {"text": "儿", "function": "Button (child ticket)"},
+    "33": {"text": "订今日", "function": "Button (book for today)"},
+    "34": {"text": "指定日期", "function": "Button (select date)"},
+    "35": {"text": "天天秒杀", "function": "Button (daily flash sale)"},
+    "36": {"text": "天天秒杀", "function": "Button (daily flash sale)"},
+    "37": {"text": "有奖", "function": "Button (reward)"},
+    "38": {"text": "有奖调研", "function": "Button (reward survey)"},
+    "39": {"text": "查看门票", "function": "Button (view tickets)"},
+    "40": {"text": "会员店", "function": "Button (membership store)"},
+    "41": {"text": "写评价", "function": "Button (write review)"}
+}
+2024-07-02 15:33:15 - - - - 2024-07-02 15:35:50 - Info: ActionSelector observes image ./RQ1/2024-07-02_15-30-04/drive/4_SoM_inspect.png
+2024-07-02 15:33:16 - - - - 2024-07-02 15:35:59 - ActionSelector:
+2024-07-02 15:33:27 - - - - 2024-07-02 15:35:59 - {"action": "click", "target": "11", "reason": "To view the rating of the selected attraction"}
+2024-07-02 15:33:27 - - - - 2024-07-02 15:36:29 - Info: Observer observes image ./RQ1/2024-07-02_15-30-04/drive/5_SoM_rule.png
+2024-07-02 15:33:43 - - - - 2024-07-02 15:38:02 - Observer:
+2024-07-02 15:33:56 - - - - 2024-07-02 15:38:02 - {
+    "0": {
+        "text": "搜索评价关键词",
+        "function": "搜索框，用于输入关键词进行搜索"
+    },
+    "1": {
+        "text": "",
+        "function": "搜索图标按钮，用于提交搜索请求"
+    },
+    "2": {
+        "text": "4.6",
+        "function": "评分显示，显示景点的评分"
+    },
+    "3": {
+        "text": "美团致力于呈现真实的评价美团致力于呈现真实的评价》",
+        "function": "评价说明文本，描述评价的真实性"
+    },
+    "4": {
+        "text": "整体评分",
+        "function": "评分标题，表示整体评分"
+    },
+    "5": {
+        "text": "",
+        "function": "星级评分图标，显示评分的星级"
+    },
+    "6": {
+        "text": "",
+        "function": "收藏图标按钮，用于收藏该景点"
+    },
+    "7": {
+        "text": "全部(42.3w)",
+        "function": "筛选按钮，显示全部评价"
+    },
+    "8": {
+        "text": "图片·视频(18.7w)",
+        "function": "筛选按钮，显示包含图片和视频的评价"
+    },
+    "9": {
+        "text": "低分(2.2w)",
+        "function": "筛选按钮，显示低评分的评价"
+    },
+    "10": {
+        "text": "消费后(2.3w)",
+        "function": "筛选按钮，显示消费后的评价"
+    },
+    "11": {
+        "text": "游玩体验好13.0w",
+        "function": "标签按钮，显示游玩体验好的评价"
+    },
+    "12": {
+        "text": "项目排队时间短3.1w",
+        "function": "标签按钮，显示项目排队时间短的评价"
+    },
+    "13": {
+        "text": "演艺精彩1.6w",
+        "function": "标签按钮，显示演艺精彩的评价"
+    },
+    "14": {
+        "text": "交通便利1.2w",
+        "function": "标签按钮，显示交通便利的评价"
+    },
+    "15": {
+        "text": "饭菜好吃1.0w",
+        "function": "标签按钮，显示饭菜好吃的评价"
+    },
+    "16": {
+        "text": "项目种类丰富8203",
+        "function": "标签按钮，显示项目种类丰富的评价"
+    },
+    "17": {
+        "text": "项目数量多6307",
+        "function": "标签按钮，显示项目数量多的评价"
+    },
+    "18": {
+        "text": "",
+        "function": "下拉箭头图标，用于展开更多内容"
+    },
+    "19": {
+        "text": "特色商品种类丰富2352",
+        "function": "标签按钮，显示特色商品种类丰富的评价"
+    },
+    "20": {
+        "text": "场次安排合理1967",
+        "function": "标签按钮，显示场次安排合理的评价"
+    },
+    "21": {
+        "text": "图片·视频",
+        "function": "筛选按钮，显示包含图片和视频的评价"
+    },
+    "22": {
+        "text": "默认排序",
+        "function": "排序按钮，按默认顺序排序评价"
+    },
+    "23": {
+        "text": "最新评价",
+        "function": "排序按钮，按最新评价排序"
+    },
+    "24": {
+        "text": "眼大肚子小2024/06/26¥3000来自大众点评去迪士尼，有一些拍照省时小妙招想分享给大家\n🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰\n首先去迪士尼之前你一定要想好你去干什么的，是以做项目为主还是以拍照为主，然后做好攻略一步一步按着攻略来走，我是6月20号刚去完的，全是人，一些亲身感受到的省时小妙招分享给大家。\n这是我第一次去迪士尼，因为是说走就走的旅行，攻略也没有做的很到位，再加上早上下大雨，这些因素都放慢了我们的脚步。我的主要目的就是拍照逛买看巡游和晚上的烟火，做项目次要，所以我没有买速速通套餐，而是一个一个买的，就算买了速速通也是要排20-30分钟的队，不买速速通真的很浪费时间，什么提前下好迪士尼APP，可以看排队时间，真的非常没必要，因为不管你多早进去，热门项目都是100多分钟起步，不过把app当个地图看还是很好用的，提前攻略你想去的地方，规划好最短路线，少走弯路避免往返跑路节省体力这样玩的更彻底。\n0和人偶拍照📸小妙招0:我的主要目的是找人偶合影，但是去了才发现，人偶合影是有时间和名额限制的，而且人偶都是1-2个小时起排，不比刷项目费时间，项目还能买速速通，人偶没有，只能是自己排，除非可能你找带玩会帮你排队节省时间。那么只在里面待一天怎么能和更多的人偶合影的，小窍门就是蹭拍，你可以选两个你特别想近距离拍的排队，其他的可以在围起来的地方打开二倍或者自拍，举着手机等着人偶朝着你的方向的时候抓拍，是个不错的办法。而且人偶们拍半个小时左右就要出场休息一下，这时候你近距离接触的时机就来啦，举好相机在出口随时准备着，总是能抓到一两张满意的，注意自己的表情管理哦。\n0看巡游小技巧0:提前在app上看好巡游时间，找不到就问工作人员，工作人员都会很详细的告诉你，然后提前半小时在路两旁等着，如果时间紧急，就找高点去拍，就算前面都是人群也不耽误拍照，那样反而更好看，我是没提前拍的，找的围栏，是可以坐在围栏上看的，工作人员允许。不过下雨就会换成简易版，真的很简易，还好那天下午雨过天晴，第二场是正式的，还是很值得看的。\n0看烟花🎆小技巧0:不是离城堡越近越好，反而远一点更可以照全景，就算前面都是人头也无所谓，拍出来好看的。两场烟花看一场足矣，可以把购物时间留在晚上所有项目关了以后，库存充足，不用担心晚上没有早上的货品全。\n0有没有必要买乐拍通0:首先乐拍通虽然都是举着单反给你拍，但是技术很有限，如果你对照片没什么要求，买一个省的自己拍了，如果要求比较高，那么我觉得自己拍的其实更好，点位挺多，但是不是都是最佳的，而且千万别忘记刷卡，要不会看不到你拍的照片，每拍一次都要刷一下哦。\n0好吃又好看的食物推荐0:我们没少买吃的，但是我觉得最值的是疯狂动物城里面的华夫饼配冰淇淋和小熊维尼噗噗杯桃子汽水。冰淇淋是蓝莓味的，好吃，华夫饼是现烤的。桃子汽水可以喝到好喝的汽水还能留下一个杯子，很可爱。像正餐和那个琦妙美味屋里的面包真的不推荐。\n0如果遗失物品怎么办0:我就出现了一个小插曲，小熊维尼桃子汽水的杯子落在了爱丽丝梦游仙境，但是想起来的时候已经闭园所以被工作人员告知只能在失物招领处问问，电话是+862120998001，一般当天可能来不及送回去，转天可以查到，我就是转天查到的，通过邮件确认了是我的，工作人员就给我邮寄了，要自己承担运费哈。\n以上就是我第一次去迪士尼的一些心得，供大家参考，希望能帮到你们哈。拍照点位就不详细写啦，去小红书搜即可，都是很棒的推荐。㊗️大家玩的开心哦~全文¥3000｜来自大众点评来走，我是6月20号刚去完的，全是人，一些亲身感受全文<眼大肚子小2024/06/26¥3000来自大众点评¥3000｜来自大众点评",
+        "function": "用户评价，显示用户对景点的详细评价"
+    },
+    "25": {
+        "text": "去迪士尼，有一些拍照省时小妙招想分享给大家\n🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰🏰\n首先去迪士尼之前你一定要想好你去干什么的，是以做项目为主还是以拍照为主，然后做好攻略一步一步按着攻略来走，我是6月20号刚去完的，全是人，一些亲身感受到的省时小妙招分享给大家。\n这是我第一次去迪士尼，因为是说走就走的旅行，攻略也没有做的很到位，再加上早上下大雨，这些因素都放慢了我们的脚步。我的主要目的就是拍照逛买看巡游和晚上的烟火，做项目次要，所以我没有买速速通套餐，而是一个一个买的，就算买了速速通也是要排20-30分钟的队，不买速速通真的很浪费时间，什么提前下好迪士尼APP，可以看排队时间，真的非常没必要，因为不管你多早进去，热门项目都是100多分钟起步，不过把app当个地图看还是很好用的，提前攻略你想去的地方，规划好最短路线，少走弯路避免往返跑路节省体力这样玩的更彻底。\n0和人偶拍照📸小妙招0:我的主要目的是找人偶合影，但是去了才发现，人偶合影是有时间和名额限制的，而且人偶都是1-2个小时起排，不比刷项目费时间，项目还能买速速通，人偶没有，只能是自己排，除非可能你找带玩会帮你排队节省时间。那么只在里面待一天怎么能和更多的人偶合影的，小窍门就是蹭拍，你可以选两个你特别想近距离拍的排队，其他的可以在围起来的地方打开二倍或者自拍，举着手机等着人偶朝着你的方向的时候抓拍，是个不错的办法。而且人偶们拍半个小时左右就要出场休息一下，这时候你近距离接触的时机就来啦，举好相机在出口随时准备着，总是能抓到一两张满意的，注意自己的表情管理哦。\n0看巡游小技巧0:提前在app上看好巡游时间，找不到就问工作人员，工作人员都会很详细的告诉你，然后提前半小时在路两旁等着，如果时间紧急，就找高点去拍，就算前面都是人群也不耽误拍照，那样反而更好看，我是没提前拍的，找的围栏，是可以坐在围栏上看的，工作人员允许。不过下雨就会换成简易版，真的很简易，还好那天下午雨过天晴，第二场是正式的，还是很值得看的。\n0看烟花🎆小技巧0:不是离城堡越近越好，反而远一点更可以照全景，就算前面都是人头也无所谓，拍出来好看的。两场烟花看一场足矣，可以把购物时间留在晚上所有项目关了以后，库存充足，不用担心晚上没有早上的货品全。\n0有没有必要买乐拍通0:首先乐拍通虽然都是举着单反给你拍，但是技术很有限，如果你对照片没什么要求，买一个省的自己拍了，如果要求比较高，那么我觉得自己拍的其实更好，点位挺多，但是不是都是最佳的，而且千万别忘记刷卡，要不会看不到你拍的照片，每拍一次都要刷一下哦。\n0好吃又好看的食物推荐0:我们没少买吃的，但是我觉得最值的是疯狂动物城里面的华夫饼配冰淇淋和小熊维尼噗噗杯桃子汽水。冰淇淋是蓝莓味的，好吃，华夫饼是现烤的。桃子汽水可以喝到好喝的汽水还能留下一个杯子，很可爱。像正餐和那个琦妙美味屋里的面包真的不推荐。\n0如果遗失物品怎么办0:我就出现了一个小插曲，小熊维尼桃子汽水的杯子落在了爱丽丝梦游仙境，但是想起来的时候已经闭园所以被工作人员告知只能在失物招领处问问，电话是+862120998001，一般当天可能来不及送回去，转天可以查到，我就是转天查到的，通过邮件确认了是我的，工作人员就给我邮寄了，要自己承担运费哈。\n以上就是我第一次去迪士尼的一些心得，供大家参考，希望能帮到你们哈。拍照点位就不详细写啦，去小红书搜即可，都是很棒的推荐。㊗️大家玩的开心哦~来走，我是6月20号刚去完的，全是人，一些亲身感受全文<",
+        "function": "用户评价详细内容，显示用户对景点的详细评价和心得"
+    },
+    "26": {
+        "text": "",
+        "function": "图片，显示景点的相关图片"
+    },
+    "27": {
+        "text": "",
+        "function": "图片，显示景点的相关图片"
+    },
+    "28": {
+        "text": "",
+        "function": "图片，显示景点的相关图片"
+    },
+    "29": {
+        "text": "",
+        "function": "图片，显示景点的相关图片"
+    },
+    "30": {
+        "text": "",
+        "function": "图片，显示景点的相关图片"
+    },
+    "31": {
+        "text": "全部20张问",
+        "function": "按钮，点击查看全部图片"
+    },
+    "32": {
+        "text": "無敵桃子醬：好详细",
+        "function": "用户评论，显示其他用户的简短评论"
+    }
+}

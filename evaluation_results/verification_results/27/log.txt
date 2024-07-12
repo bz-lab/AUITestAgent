@@ -1,0 +1,624 @@
+2024-07-06 22:41:10 - - - - - 2024-07-06 22:41:10 - Info: Analyst is analysing the task
+2024-07-06 22:41:10 - - - - - 2024-07-06 22:41:13 - Analyst:
+2024-07-06 22:41:13 - - - - - 2024-07-06 22:41:13 - {
+  "result": [
+    "Check whether the recipient is correctly displayed after typing",
+    "Check whether the email subject is correctly displayed after typing",
+    "Check whether the email body is correctly displayed after typing",
+    "Check whether the email is sent after clicking send"
+  ]
+}
+2024-07-06 22:41:13 - - - - - 2024-07-06 22:41:13 - Info: Analyst is analysing the task
+2024-07-06 22:41:13 - - - - - 2024-07-06 22:41:15 - Analyst:
+2024-07-06 22:41:13 - - - - - 2024-07-06 22:41:15 - {
+    "target": ["The recipient's name"]
+}
+2024-07-06 22:41:15 - - - - - 2024-07-06 22:41:15 - Info: Observer observes image ./RQ2/27/drive/0_SoM_rule.png
+2024-07-06 22:41:15 - - - - - 2024-07-06 22:41:21 - Observer:
+2024-07-06 22:41:15 - - - - - 2024-07-06 22:41:21 - {
+    "Page Type": "Email inbox page displaying a list of received emails",
+    "Widgets": []
+}
+2024-07-06 22:41:15 - - - - - 2024-07-06 22:41:21 - Info: Observer observes image ./RQ2/27/drive/0.png
+2024-07-06 22:41:15 - - - - - 2024-07-06 22:41:29 - Observer:
+2024-07-06 22:41:21 - - - - - 2024-07-06 22:41:29 - {
+    "Page Information": {
+        "The recipient's name": [
+            "Grammarly",
+            "Notion",
+            "Notion",
+            "Notion",
+            "Notion Team",
+            "Quora Digest",
+            "Quora Digest",
+            "Akshay at Notion"
+        ]
+    }
+}
+2024-07-06 22:41:21 - - - - - 2024-07-06 22:41:29 - Info: Observer observes image ./RQ2/27/drive/1_SoM_rule.png
+2024-07-06 22:41:21 - - - - - 2024-07-06 22:41:32 - Observer:
+2024-07-06 22:41:21 - - - - - 2024-07-06 22:41:32 - {
+    "Page Type": "Email composition page",
+    "Widgets": [8]
+}
+2024-07-06 22:41:22 - - - - - 2024-07-06 22:41:32 - Info: Observer observes image ./RQ2/27/test/Task0.Page1.Widget0.png
+2024-07-06 22:41:29 - - - - - 2024-07-06 22:41:35 - Observer:
+2024-07-06 22:41:29 - - - - - 2024-07-06 22:41:35 - {
+  "name": "recipient email label",
+  "description": "The widget is a label indicating the recipient's email address field, displaying the text 'To'. The recipient's name is implied to be entered in the associated field."
+}
+2024-07-06 22:41:29 - - - - - 2024-07-06 22:41:35 - Info: Observer observes image ./RQ2/27/drive/1.png
+2024-07-06 22:41:29 - - - - - 2024-07-06 22:41:40 - Observer:
+2024-07-06 22:41:29 - - - - - 2024-07-06 22:41:40 - {
+    "Page Information": {
+        "The recipient's name": ["invisible"]
+    }
+}
+2024-07-06 22:41:32 - - - - - 2024-07-06 22:41:40 - Info: Observer observes image ./RQ2/27/drive/2_SoM_rule.png
+2024-07-06 22:41:32 - - - - - 2024-07-06 22:41:46 - Observer:
+2024-07-06 22:41:32 - - - - - 2024-07-06 22:41:46 - {
+    "Page Type": "Email composition page",
+    "Widgets": [7, 9]
+}
+2024-07-06 22:41:32 - - - - - 2024-07-06 22:41:46 - Info: Observer observes image ./RQ2/27/test/Task0.Page2.Widget0.png
+2024-07-06 22:41:33 - - - - - 2024-07-06 22:41:49 - Observer:
+2024-07-06 22:41:35 - - - - - 2024-07-06 22:41:49 - {
+  "name": "email display widget",
+  "description": "The widget displays the recipient's email address '1*********@qq.com' with an icon of a person in a purple circle on the left side."
+}
+2024-07-06 22:41:35 - - - - - 2024-07-06 22:41:49 - Info: Observer observes image ./RQ2/27/test/Task0.Page2.Widget1.png
+2024-07-06 22:41:35 - - - - - 2024-07-06 22:41:53 - Observer:
+2024-07-06 22:41:35 - - - - - 2024-07-06 22:41:53 - {
+  "name": "email display widget",
+  "description": "The widget displays the recipient's email address, t*******@gmail.com, with a red circular icon containing a white 'X' on the left side."
+}
+2024-07-06 22:41:36 - - - - - 2024-07-06 22:41:53 - Info: Observer observes image ./RQ2/27/drive/2.png
+2024-07-06 22:41:40 - - - - - 2024-07-06 22:41:58 - Observer:
+2024-07-06 22:41:40 - - - - - 2024-07-06 22:41:58 - {
+    "Page Information": {
+        "The recipient's name": ["1*********@qq.com", "t*******@gmail.com"]
+    }
+}
+2024-07-06 22:41:40 - - - - - 2024-07-06 22:41:58 - Info: Observer observes image ./RQ2/27/drive/3_SoM_rule.png
+2024-07-06 22:41:40 - - - - - 2024-07-06 22:42:03 - Observer:
+2024-07-06 22:41:41 - - - - - 2024-07-06 22:42:03 - {
+    "Page Type": "Email composition page",
+    "Widgets": [7, 9]
+}
+2024-07-06 22:41:46 - - - - - 2024-07-06 22:42:03 - Info: Observer observes image ./RQ2/27/test/Task0.Page3.Widget0.png
+2024-07-06 22:41:46 - - - - - 2024-07-06 22:42:07 - Observer:
+2024-07-06 22:41:46 - - - - - 2024-07-06 22:42:07 - {
+  "name": "email display widget",
+  "description": "The widget displays the primary recipient's email address, 1*********@qq.com, alongside an icon of a person in a purple circle. The recipient's name is not provided."
+}
+2024-07-06 22:41:46 - - - - - 2024-07-06 22:42:07 - Info: Observer observes image ./RQ2/27/test/Task0.Page3.Widget1.png
+2024-07-06 22:41:46 - - - - - 2024-07-06 22:42:10 - Observer:
+2024-07-06 22:41:49 - - - - - 2024-07-06 22:42:10 - {
+  "name": "secondary recipient email display",
+  "description": "The widget displays the secondary recipient's email address, t*******@gmail.com, with a red circular icon containing a white 'X' on the left side."
+}
+2024-07-06 22:41:49 - - - - - 2024-07-06 22:42:10 - Info: Observer observes image ./RQ2/27/drive/3.png
+2024-07-06 22:41:49 - - - - - 2024-07-06 22:42:15 - Observer:
+2024-07-06 22:41:49 - - - - - 2024-07-06 22:42:15 - {
+    "Page Information": {
+        "The recipient's name": ["1*********@qq.com", "t*******@gmail.com"]
+    }
+}
+2024-07-06 22:41:49 - - - - - 2024-07-06 22:42:15 - Info: Observer observes image ./RQ2/27/drive/4_SoM_rule.png
+2024-07-06 22:41:53 - - - - - 2024-07-06 22:42:20 - Observer:
+2024-07-06 22:41:53 - - - - - 2024-07-06 22:42:20 - {
+    "Page Type": "Email composition page",
+    "Widgets": [7, 9]
+}
+2024-07-06 22:41:53 - - - - - 2024-07-06 22:42:20 - Info: Observer observes image ./RQ2/27/test/Task0.Page4.Widget0.png
+2024-07-06 22:41:53 - - - - - 2024-07-06 22:42:24 - Observer:
+2024-07-06 22:41:54 - - - - - 2024-07-06 22:42:24 - {
+  "name": "Recipient email address",
+  "description": "The widget displays the recipient's email address, 1*********@qq.com, with an icon of a person in a purple circle on the left side."
+}
+2024-07-06 22:41:58 - - - - - 2024-07-06 22:42:24 - Info: Observer observes image ./RQ2/27/test/Task0.Page4.Widget1.png
+2024-07-06 22:41:58 - - - - - 2024-07-06 22:42:27 - Observer:
+2024-07-06 22:41:58 - - - - - 2024-07-06 22:42:27 - {
+  "name": "Recipient email address",
+  "description": "The widget displays the recipient's email address, t*******@gmail.com, with a red circular icon containing a white 'X' on the left side. The recipient's name is not explicitly mentioned."
+}
+2024-07-06 22:41:58 - - - - - 2024-07-06 22:42:27 - Info: Observer observes image ./RQ2/27/drive/4.png
+2024-07-06 22:41:58 - - - - - 2024-07-06 22:42:31 - Observer:
+2024-07-06 22:42:03 - - - - - 2024-07-06 22:42:31 - {
+    "Page Information": {
+        "The recipient's name": ["1*********@qq.com", "t*******@gmail.com"]
+    }
+}
+2024-07-06 22:42:03 - - - - - 2024-07-06 22:42:31 - Info: Observer observes image ./RQ2/27/drive/5_SoM_rule.png
+2024-07-06 22:42:03 - - - - - 2024-07-06 22:42:40 - Observer:
+2024-07-06 22:42:03 - - - - - 2024-07-06 22:42:40 - {
+    "Page Type": "Email inbox page displaying a list of received emails",
+    "Widgets": []
+}
+2024-07-06 22:42:03 - - - - - 2024-07-06 22:42:40 - Info: Observer observes image ./RQ2/27/drive/5.png
+2024-07-06 22:42:07 - - - - - 2024-07-06 22:42:48 - Observer:
+2024-07-06 22:42:07 - - - - - 2024-07-06 22:42:48 - {
+    "Page Information": {
+        "The recipient's name": ["Test", "Grammarly", "Notion", "Notion", "Notion", "Notion Team", "Quora Digest"]
+    }
+}
+2024-07-06 22:42:07 - - - - - 2024-07-06 22:42:48 - Info: TestTaskChecker is checking the extracted information
+2024-07-06 22:42:07 - - - - - 2024-07-06 22:42:51 - TestTaskChecker:
+2024-07-06 22:42:07 - - - - - 2024-07-06 22:42:51 - {
+    "judgement": "Yes",
+    "reason": "The recipient's email addresses were correctly displayed throughout the email composition process. Initially, the recipient's email addresses '1*********@qq.com' and 't*******@gmail.com' were entered in the 'To' field. These addresses were consistently displayed in the subsequent pages and widgets, including the primary and secondary recipient email display widgets. There were no discrepancies or errors in displaying the recipient's email addresses at any point during the session."
+}
+2024-07-06 22:42:10 - - - - - 2024-07-06 22:42:51 - Info: Analyst is analysing the task
+2024-07-06 22:42:10 - - - - - 2024-07-06 22:42:53 - Analyst:
+2024-07-06 22:42:10 - - - - - 2024-07-06 22:42:53 - {
+    "target": ["The email subject"]
+}
+2024-07-06 22:42:10 - - - - - 2024-07-06 22:42:53 - Info: Observer observes image ./RQ2/27/drive/0_SoM_rule.png
+2024-07-06 22:42:11 - - - - - 2024-07-06 22:42:58 - Observer:
+2024-07-06 22:42:15 - - - - - 2024-07-06 22:42:58 - {
+    "Page Type": "Email inbox page displaying a list of received emails",
+    "Widgets": [6, 12, 18, 19, 20, 25, 26, 27, 33, 37, 42]
+}
+2024-07-06 22:42:15 - - - - - 2024-07-06 22:42:59 - Info: Observer observes image ./RQ2/27/test/Task1.Page0.Widget0.png
+2024-07-06 22:42:15 - - - - - 2024-07-06 22:43:01 - Observer:
+2024-07-06 22:42:15 - - - - - 2024-07-06 22:43:01 - {
+  "name": "Email subject",
+  "description": "The email subject is 'We're updating our Privacy Policy'."
+}
+2024-07-06 22:42:15 - - - - - 2024-07-06 22:43:01 - Info: Observer observes image ./RQ2/27/test/Task1.Page0.Widget1.png
+2024-07-06 22:42:20 - - - - - 2024-07-06 22:43:06 - Observer:
+2024-07-06 22:42:20 - - - - - 2024-07-06 22:43:06 - {
+    "name": "Email subject",
+    "description": "The email subject widget displays the text 'A new device logged into your account'."
+}
+2024-07-06 22:42:20 - - - - - 2024-07-06 22:43:06 - Info: Observer observes image ./RQ2/27/test/Task1.Page0.Widget2.png
+2024-07-06 22:42:20 - - - - - 2024-07-06 22:43:09 - Observer:
+2024-07-06 22:42:20 - - - - - 2024-07-06 22:43:09 - {
+    "name": "Anewo",
+    "description": "The email subject widget displays the text 'Anewo'."
+}
+2024-07-06 22:42:24 - - - - - 2024-07-06 22:43:09 - Info: Observer observes image ./RQ2/27/test/Task1.Page0.Widget3.png
+2024-07-06 22:42:24 - - - - - 2024-07-06 22:43:12 - Observer:
+2024-07-06 22:42:24 - - - - - 2024-07-06 22:43:12 - {
+  "name": "device",
+  "description": "The email subject is 'device'."
+}
+2024-07-06 22:42:24 - - - - - 2024-07-06 22:43:12 - Info: Observer observes image ./RQ2/27/test/Task1.Page0.Widget4.png
+2024-07-06 22:42:24 - - - - - 2024-07-06 22:43:16 - Observer:
+2024-07-06 22:42:27 - - - - - 2024-07-06 22:43:16 - {
+    "name": "Email subject",
+    "description": "The email subject is 'logged into your account'."
+}
+2024-07-06 22:42:27 - - - - - 2024-07-06 22:43:16 - Info: Observer observes image ./RQ2/27/test/Task1.Page0.Widget5.png
+2024-07-06 22:42:27 - - - - - 2024-07-06 22:43:20 - Observer:
+2024-07-06 22:42:27 - - - - - 2024-07-06 22:43:20 - {
+  "name": "Anewo",
+  "description": "The email subject widget displays the text 'Anewo'."
+}
+2024-07-06 22:42:27 - - - - - 2024-07-06 22:43:20 - Info: Observer observes image ./RQ2/27/test/Task1.Page0.Widget6.png
+2024-07-06 22:42:31 - - - - - 2024-07-06 22:43:23 - Observer:
+2024-07-06 22:42:31 - - - - - 2024-07-06 22:43:23 - {
+  "name": "device",
+  "description": "The email subject"
+}
+2024-07-06 22:42:31 - - - - - 2024-07-06 22:43:23 - Info: Observer observes image ./RQ2/27/test/Task1.Page0.Widget7.png
+2024-07-06 22:42:31 - - - - - 2024-07-06 22:43:26 - Observer:
+2024-07-06 22:42:31 - - - - - 2024-07-06 22:43:26 - {
+    "name": "Email subject",
+    "description": "The email subject is 'logged into your account'."
+}
+2024-07-06 22:42:40 - - - - - 2024-07-06 22:43:26 - Info: Observer observes image ./RQ2/27/test/Task1.Page0.Widget8.png
+2024-07-06 22:42:40 - - - - - 2024-07-06 22:43:29 - Observer:
+2024-07-06 22:42:40 - - - - - 2024-07-06 22:43:29 - {
+  "name": "Email subject",
+  "description": "The email subject is 'Notion has updated its terms and conditions'."
+}
+2024-07-06 22:42:40 - - - - - 2024-07-06 22:43:29 - Info: Observer observes image ./RQ2/27/test/Task1.Page0.Widget9.png
+2024-07-06 22:42:41 - - - - - 2024-07-06 22:43:31 - Observer:
+2024-07-06 22:42:48 - - - - - 2024-07-06 22:43:31 - {
+  "name": "email subject",
+  "description": "The email subject is 'Why are poorly written books so popular?'"
+}
+2024-07-06 22:42:48 - - - - - 2024-07-06 22:43:31 - Info: Observer observes image ./RQ2/27/test/Task1.Page0.Widget10.png
+2024-07-06 22:42:48 - - - - - 2024-07-06 22:43:36 - Observer:
+2024-07-06 22:42:48 - - - - - 2024-07-06 22:43:36 - {
+  "name": "email subject",
+  "description": "The email subject is 'What little elements in Harry Potter did you...'."
+}
+2024-07-06 22:42:51 - - - - - 2024-07-06 22:43:36 - Info: Observer observes image ./RQ2/27/drive/0.png
+2024-07-06 22:42:51 - - - - - 2024-07-06 22:43:42 - Observer:
+2024-07-06 22:42:51 - - - - - 2024-07-06 22:43:42 - {
+    "Page Information": {
+        "The email subject": [
+            "We’re updating our Privacy Policy",
+            "A new device logged into your account",
+            "A new device logged into your account",
+            "A new device logged into your account",
+            "Notion has updated its terms and conditions",
+            "Why are poorly written books so popular?",
+            "What little elements in Harry Potter did you...",
+            "How community has been the foundatio..."
+        ]
+    }
+}
+2024-07-06 22:42:51 - - - - - 2024-07-06 22:43:42 - Info: Observer observes image ./RQ2/27/drive/1_SoM_rule.png
+2024-07-06 22:42:53 - - - - - 2024-07-06 22:43:47 - Observer:
+2024-07-06 22:42:53 - - - - - 2024-07-06 22:43:47 - {
+    "Page Type": "Email composition page",
+    "Widgets": [9]
+}
+2024-07-06 22:42:53 - - - - - 2024-07-06 22:43:47 - Info: Observer observes image ./RQ2/27/test/Task1.Page1.Widget0.png
+2024-07-06 22:42:53 - - - - - 2024-07-06 22:43:52 - Observer:
+2024-07-06 22:42:53 - - - - - 2024-07-06 22:43:52 - {
+    "name": "Subject input field",
+    "description": "The widget is an input field for the email subject."
+}
+2024-07-06 22:42:58 - - - - - 2024-07-06 22:43:52 - Info: Observer observes image ./RQ2/27/drive/1.png
+2024-07-06 22:42:58 - - - - - 2024-07-06 22:43:57 - Observer:
+2024-07-06 22:42:59 - - - - - 2024-07-06 22:43:57 - {
+    "Page Information": {
+        "The email subject": ["invisible"]
+    }
+}
+2024-07-06 22:42:59 - - - - - 2024-07-06 22:43:57 - Info: Observer observes image ./RQ2/27/drive/2_SoM_rule.png
+2024-07-06 22:42:59 - - - - - 2024-07-06 22:44:01 - Observer:
+2024-07-06 22:43:01 - - - - - 2024-07-06 22:44:01 - {
+    "Page Type": "Email composition page",
+    "Widgets": [11]
+}
+2024-07-06 22:43:01 - - - - - 2024-07-06 22:44:01 - Info: Observer observes image ./RQ2/27/test/Task1.Page2.Widget0.png
+2024-07-06 22:43:01 - - - - - 2024-07-06 22:44:05 - Observer:
+2024-07-06 22:43:01 - - - - - 2024-07-06 22:44:05 - {
+    "name": "Subject input field",
+    "description": "The widget is an input field for the email subject."
+}
+2024-07-06 22:43:01 - - - - - 2024-07-06 22:44:05 - Info: Observer observes image ./RQ2/27/drive/2.png
+2024-07-06 22:43:06 - - - - - 2024-07-06 22:44:09 - Observer:
+2024-07-06 22:43:06 - - - - - 2024-07-06 22:44:09 - {
+    "Page Information": {
+        "The email subject": ["invisible"]
+    }
+}
+2024-07-06 22:43:06 - - - - - 2024-07-06 22:44:09 - Info: Observer observes image ./RQ2/27/drive/3_SoM_rule.png
+2024-07-06 22:43:06 - - - - - 2024-07-06 22:44:13 - Observer:
+2024-07-06 22:43:07 - - - - - 2024-07-06 22:44:13 - {
+    "Page Type": "Email composition page where users can draft and send emails",
+    "Widgets": [10]
+}
+2024-07-06 22:43:09 - - - - - 2024-07-06 22:44:13 - Info: Observer observes image ./RQ2/27/test/Task1.Page3.Widget0.png
+2024-07-06 22:43:09 - - - - - 2024-07-06 22:44:16 - Observer:
+2024-07-06 22:43:09 - - - - - 2024-07-06 22:44:16 - {
+    "name": "email subject input field",
+    "description": "The widget is a text input field for the email subject, currently containing 'Test'."
+}
+2024-07-06 22:43:09 - - - - - 2024-07-06 22:44:16 - Info: Observer observes image ./RQ2/27/drive/3.png
+2024-07-06 22:43:10 - - - - - 2024-07-06 22:44:23 - Observer:
+2024-07-06 22:43:12 - - - - - 2024-07-06 22:44:23 - {
+    "Page Information": {
+        "The email subject": ["Test"]
+    }
+}
+2024-07-06 22:43:12 - - - - - 2024-07-06 22:44:23 - Info: Observer observes image ./RQ2/27/drive/4_SoM_rule.png
+2024-07-06 22:43:12 - - - - - 2024-07-06 22:44:28 - Observer:
+2024-07-06 22:43:12 - - - - - 2024-07-06 22:44:28 - {
+    "Page Type": "Email composition page where users can draft and send emails",
+    "Widgets": [10]
+}
+2024-07-06 22:43:13 - - - - - 2024-07-06 22:44:28 - Info: Observer observes image ./RQ2/27/test/Task1.Page4.Widget0.png
+2024-07-06 22:43:16 - - - - - 2024-07-06 22:44:31 - Observer:
+2024-07-06 22:43:16 - - - - - 2024-07-06 22:44:31 - {
+    "name": "Subject field",
+    "description": "The email subject field with text 'Test'."
+}
+2024-07-06 22:43:16 - - - - - 2024-07-06 22:44:31 - Info: Observer observes image ./RQ2/27/drive/4.png
+2024-07-06 22:43:16 - - - - - 2024-07-06 22:44:35 - Observer:
+2024-07-06 22:43:16 - - - - - 2024-07-06 22:44:35 - {
+    "Page Information": {
+        "The email subject": ["Test"]
+    }
+}
+2024-07-06 22:43:20 - - - - - 2024-07-06 22:44:35 - Info: Observer observes image ./RQ2/27/drive/5_SoM_rule.png
+2024-07-06 22:43:20 - - - - - 2024-07-06 22:44:42 - Observer:
+2024-07-06 22:43:20 - - - - - 2024-07-06 22:44:42 - {
+    "Page Type": "Email inbox page displaying a list of received emails",
+    "Widgets": [6, 12, 18, 24, 30, 36, 42]
+}
+2024-07-06 22:43:20 - - - - - 2024-07-06 22:44:43 - Info: Observer observes image ./RQ2/27/test/Task1.Page5.Widget0.png
+2024-07-06 22:43:20 - - - - - 2024-07-06 22:44:46 - Observer:
+2024-07-06 22:43:23 - - - - - 2024-07-06 22:44:46 - {
+    "name": "email subject widget",
+    "description": "The email subject widget displays the text 'Test' which represents the email subject."
+}
+2024-07-06 22:43:23 - - - - - 2024-07-06 22:44:46 - Info: Observer observes image ./RQ2/27/test/Task1.Page5.Widget1.png
+2024-07-06 22:43:23 - - - - - 2024-07-06 22:44:49 - Observer:
+2024-07-06 22:43:23 - - - - - 2024-07-06 22:44:49 - {
+  "name": "Email subject",
+  "description": "The email subject is 'We're updating our Privacy Policy'."
+}
+2024-07-06 22:43:23 - - - - - 2024-07-06 22:44:49 - Info: Observer observes image ./RQ2/27/test/Task1.Page5.Widget2.png
+2024-07-06 22:43:26 - - - - - 2024-07-06 22:44:52 - Observer:
+2024-07-06 22:43:26 - - - - - 2024-07-06 22:44:52 - {
+  "name": "Anewdevice",
+  "description": "The email subject is 'A new device'."
+}
+2024-07-06 22:43:26 - - - - - 2024-07-06 22:44:52 - Info: Observer observes image ./RQ2/27/test/Task1.Page5.Widget3.png
+2024-07-06 22:43:26 - - - - - 2024-07-06 22:44:54 - Observer:
+2024-07-06 22:43:26 - - - - - 2024-07-06 22:44:54 - {
+  "name": "Anewdevice",
+  "description": "The email subject is 'A new device'."
+}
+2024-07-06 22:43:29 - - - - - 2024-07-06 22:44:55 - Info: Observer observes image ./RQ2/27/test/Task1.Page5.Widget4.png
+2024-07-06 22:43:29 - - - - - 2024-07-06 22:44:59 - Observer:
+2024-07-06 22:43:29 - - - - - 2024-07-06 22:44:59 - {
+  "name": "Anewdevice",
+  "description": "The email subject is 'A new device'."
+}
+2024-07-06 22:43:29 - - - - - 2024-07-06 22:44:59 - Info: Observer observes image ./RQ2/27/test/Task1.Page5.Widget5.png
+2024-07-06 22:43:29 - - - - - 2024-07-06 22:45:02 - Observer:
+2024-07-06 22:43:31 - - - - - 2024-07-06 22:45:02 - {
+  "name": "Email subject",
+  "description": "The email subject is 'Notion has updated its terms and conditions'."
+}
+2024-07-06 22:43:31 - - - - - 2024-07-06 22:45:02 - Info: Observer observes image ./RQ2/27/test/Task1.Page5.Widget6.png
+2024-07-06 22:43:31 - - - - - 2024-07-06 22:45:06 - Observer:
+2024-07-06 22:43:31 - - - - - 2024-07-06 22:45:06 - {
+  "name": "Email subject",
+  "description": "The email subject is 'Why are poorly written book'."
+}
+2024-07-06 22:43:31 - - - - - 2024-07-06 22:45:06 - Info: Observer observes image ./RQ2/27/drive/5.png
+2024-07-06 22:43:36 - - - - - 2024-07-06 22:45:15 - Observer:
+2024-07-06 22:43:36 - - - - - 2024-07-06 22:45:15 - {
+    "Page Information": {
+        "The email subject": ["Test", "We’re updating our Privacy Policy", "A new device logged into your account", "A new device logged into your account", "A new device logged into your account", "Notion has updated its terms and conditions", "Why are poorly written books"]
+    }
+}
+2024-07-06 22:43:36 - - - - - 2024-07-06 22:45:15 - Info: TestTaskChecker is checking the extracted information
+2024-07-06 22:43:36 - - - - - 2024-07-06 22:45:17 - TestTaskChecker:
+2024-07-06 22:43:36 - - - - - 2024-07-06 22:45:17 - {
+    "judgement": "Yes",
+    "reason": "The email subject 'Test' was correctly displayed after typing. The user navigated from the email composition page (Page 1) where they typed 'Test' in the subject field (Action 2) and then sent the email (Action 4). Upon returning to the email inbox page (Page 5), the email subject 'Test' was displayed correctly in the list of received emails."
+}
+2024-07-06 22:43:42 - - - - - 2024-07-06 22:45:17 - Info: Analyst is analysing the task
+2024-07-06 22:43:42 - - - - - 2024-07-06 22:45:19 - Analyst:
+2024-07-06 22:43:42 - - - - - 2024-07-06 22:45:19 - {
+    "target": ["The content of the email body"]
+}
+2024-07-06 22:43:42 - - - - - 2024-07-06 22:45:19 - Info: Observer observes image ./RQ2/27/drive/0_SoM_rule.png
+2024-07-06 22:43:42 - - - - - 2024-07-06 22:45:25 - Observer:
+2024-07-06 22:43:47 - - - - - 2024-07-06 22:45:25 - {
+    "Page Type": "Email inbox page displaying a list of received emails",
+    "Widgets": []
+}
+2024-07-06 22:43:47 - - - - - 2024-07-06 22:45:25 - Info: Observer observes image ./RQ2/27/drive/0.png
+2024-07-06 22:43:47 - - - - - 2024-07-06 22:45:34 - Observer:
+2024-07-06 22:43:47 - - - - - 2024-07-06 22:45:34 - {
+    "Page Information": {
+        "The content of the email body": [
+            "We’re updating our Privacy Policy Take a look at the latest updates.",
+            "A new device logged into your account Review a recent login from a new device The...",
+            "A new device logged into your account Review a recent login from a new device The...",
+            "A new device logged into your account Review a recent login from a new device The...",
+            "Notion has updated its terms and conditions",
+            "Why are poorly written books so popular? Have you ever heard of the site Wattpad? W...",
+            "What little elements in Harry Potter did you... Education system. I get that JK hers...",
+            "How community has been the foundatio..."
+        ]
+    }
+}
+2024-07-06 22:43:47 - - - - - 2024-07-06 22:45:34 - Info: Observer observes image ./RQ2/27/drive/1_SoM_rule.png
+2024-07-06 22:43:52 - - - - - 2024-07-06 22:45:39 - Observer:
+2024-07-06 22:43:52 - - - - - 2024-07-06 22:45:39 - {
+    "Page Type": "Email composition page",
+    "Widgets": [10]
+}
+2024-07-06 22:43:52 - - - - - 2024-07-06 22:45:39 - Info: Observer observes image ./RQ2/27/test/Task2.Page1.Widget0.png
+2024-07-06 22:43:52 - - - - - 2024-07-06 22:45:42 - Observer:
+2024-07-06 22:43:52 - - - - - 2024-07-06 22:45:42 - {"name": "Compose email", "description": "The widget is an input field for composing the email body, allowing the user to enter the content of the email body."}
+2024-07-06 22:43:57 - - - - - 2024-07-06 22:45:42 - Info: Observer observes image ./RQ2/27/drive/1.png
+2024-07-06 22:43:57 - - - - - 2024-07-06 22:45:47 - Observer:
+2024-07-06 22:43:57 - - - - - 2024-07-06 22:45:47 - {
+    "Page Information": {
+        "The content of the email body": ["invisible"]
+    }
+}
+2024-07-06 22:43:57 - - - - - 2024-07-06 22:45:47 - Info: Observer observes image ./RQ2/27/drive/2_SoM_rule.png
+2024-07-06 22:43:57 - - - - - 2024-07-06 22:45:52 - Observer:
+2024-07-06 22:44:01 - - - - - 2024-07-06 22:45:52 - {
+    "Page Type": "Email composition page",
+    "Widgets": []
+}
+2024-07-06 22:44:01 - - - - - 2024-07-06 22:45:52 - Info: Observer observes image ./RQ2/27/drive/2.png
+2024-07-06 22:44:01 - - - - - 2024-07-06 22:45:57 - Observer:
+2024-07-06 22:44:01 - - - - - 2024-07-06 22:45:57 - {
+    "Page Information": {
+        "The content of the email body": ["invisible"]
+    }
+}
+2024-07-06 22:44:01 - - - - - 2024-07-06 22:45:57 - Info: Observer observes image ./RQ2/27/drive/3_SoM_rule.png
+2024-07-06 22:44:05 - - - - - 2024-07-06 22:46:01 - Observer:
+2024-07-06 22:44:05 - - - - - 2024-07-06 22:46:01 - {
+    "Page Type": "Email composition page",
+    "Widgets": [11]
+}
+2024-07-06 22:44:05 - - - - - 2024-07-06 22:46:01 - Info: Observer observes image ./RQ2/27/test/Task2.Page3.Widget0.png
+2024-07-06 22:44:05 - - - - - 2024-07-06 22:46:05 - Observer:
+2024-07-06 22:44:05 - - - - - 2024-07-06 22:46:05 - {
+  "name": "Compose email",
+  "description": "The widget is a label indicating the email body input area where the content of the email body is to be written."
+}
+2024-07-06 22:44:09 - - - - - 2024-07-06 22:46:05 - Info: Observer observes image ./RQ2/27/drive/3.png
+2024-07-06 22:44:09 - - - - - 2024-07-06 22:46:10 - Observer:
+2024-07-06 22:44:09 - - - - - 2024-07-06 22:46:10 - {
+    "Page Information": {
+        "The content of the email body": ["Test"]
+    }
+}
+2024-07-06 22:44:09 - - - - - 2024-07-06 22:46:10 - Info: Observer observes image ./RQ2/27/drive/4_SoM_rule.png
+2024-07-06 22:44:10 - - - - - 2024-07-06 22:46:15 - Observer:
+2024-07-06 22:44:13 - - - - - 2024-07-06 22:46:15 - {
+    "Page Type": "Email composition page",
+    "Widgets": [11]
+}
+2024-07-06 22:44:13 - - - - - 2024-07-06 22:46:15 - Info: Observer observes image ./RQ2/27/test/Task2.Page4.Widget0.png
+2024-07-06 22:44:13 - - - - - 2024-07-06 22:46:19 - Observer:
+2024-07-06 22:44:13 - - - - - 2024-07-06 22:46:19 - {
+  "name": "Email body field",
+  "description": "The widget is an email body field containing the text 'Hello'. The content of the email body is 'Hello'."
+}
+2024-07-06 22:44:13 - - - - - 2024-07-06 22:46:19 - Info: Observer observes image ./RQ2/27/drive/4.png
+2024-07-06 22:44:16 - - - - - 2024-07-06 22:46:24 - Observer:
+2024-07-06 22:44:16 - - - - - 2024-07-06 22:46:24 - {
+    "Page Information": {
+        "The content of the email body": ["Hello"]
+    }
+}
+2024-07-06 22:44:16 - - - - - 2024-07-06 22:46:24 - Info: Observer observes image ./RQ2/27/drive/5_SoM_rule.png
+2024-07-06 22:44:16 - - - - - 2024-07-06 22:46:30 - Observer:
+2024-07-06 22:44:17 - - - - - 2024-07-06 22:46:30 - {
+    "Page Type": "Email inbox page displaying a list of received emails",
+    "Widgets": [8, 14, 20, 26, 32, 43]
+}
+2024-07-06 22:44:23 - - - - - 2024-07-06 22:46:30 - Info: Observer observes image ./RQ2/27/test/Task2.Page5.Widget0.png
+2024-07-06 22:44:23 - - - - - 2024-07-06 22:46:33 - Observer:
+2024-07-06 22:44:23 - - - - - 2024-07-06 22:46:33 - {
+  "name": "Email body preview",
+  "description": "The widget displays a preview of the email body with the content: 'Hello'."
+}
+2024-07-06 22:44:23 - - - - - 2024-07-06 22:46:33 - Info: Observer observes image ./RQ2/27/test/Task2.Page5.Widget1.png
+2024-07-06 22:44:23 - - - - - 2024-07-06 22:46:36 - Observer:
+2024-07-06 22:44:28 - - - - - 2024-07-06 22:46:36 - {
+  "name": "Email body preview",
+  "description": "The widget displays a preview of the email body with the content: 'Take a look at the latest updates'."
+}
+2024-07-06 22:44:28 - - - - - 2024-07-06 22:46:36 - Info: Observer observes image ./RQ2/27/test/Task2.Page5.Widget2.png
+2024-07-06 22:44:28 - - - - - 2024-07-06 22:46:40 - Observer:
+2024-07-06 22:44:28 - - - - - 2024-07-06 22:46:40 - {
+  "name": "Email body preview",
+  "description": "The widget displays a preview of the email body with the content: 'Review a recent login from a new device The...'."
+}
+2024-07-06 22:44:28 - - - - - 2024-07-06 22:46:40 - Info: Observer observes image ./RQ2/27/test/Task2.Page5.Widget3.png
+2024-07-06 22:44:31 - - - - - 2024-07-06 22:46:43 - Observer:
+2024-07-06 22:44:31 - - - - - 2024-07-06 22:46:43 - {
+  "name": "Email body preview",
+  "description": "The widget displays a preview of the email body with the content: 'Review a recent login from a new device The...'."
+}
+2024-07-06 22:44:31 - - - - - 2024-07-06 22:46:43 - Info: Observer observes image ./RQ2/27/test/Task2.Page5.Widget4.png
+2024-07-06 22:44:31 - - - - - 2024-07-06 22:46:45 - Observer:
+2024-07-06 22:44:31 - - - - - 2024-07-06 22:46:45 - {
+  "name": "Email body preview",
+  "description": "The widget displays a preview of the email body with the content: 'Review a recent login from a new device The...'."
+}
+2024-07-06 22:44:35 - - - - - 2024-07-06 22:46:45 - Info: Observer observes image ./RQ2/27/test/Task2.Page5.Widget5.png
+2024-07-06 22:44:35 - - - - - 2024-07-06 22:46:49 - Observer:
+2024-07-06 22:44:35 - - - - - 2024-07-06 22:46:49 - {
+  "name": "Email body preview",
+  "description": "The widget displays a preview of the email body with the content: 'Have you ever heard of the site wattpad! w...'"
+}
+2024-07-06 22:44:35 - - - - - 2024-07-06 22:46:49 - Info: Observer observes image ./RQ2/27/drive/5.png
+2024-07-06 22:44:36 - - - - - 2024-07-06 22:46:55 - Observer:
+2024-07-06 22:44:42 - - - - - 2024-07-06 22:46:55 - {
+    "Page Information": {
+        "The content of the email body": ["Hello"]
+    }
+}
+2024-07-06 22:44:42 - - - - - 2024-07-06 22:46:55 - Info: TestTaskChecker is checking the extracted information
+2024-07-06 22:44:43 - - - - - 2024-07-06 22:46:57 - TestTaskChecker:
+2024-07-06 22:44:43 - - - - - 2024-07-06 22:46:57 - {
+    "judgement": "Yes",
+    "reason": "The email body 'Hello' was correctly displayed after typing. The sequence of actions and page information confirms that the content 'Hello' was entered in the 'Compose email' field (Page 4) and was visible in the email body field. After sending the email, the content 'Hello' was also correctly displayed in the email inbox page (Page 5)."
+}
+2024-07-06 22:44:43 - - - - - 2024-07-06 22:46:57 - Info: Analyst is analysing the task
+2024-07-06 22:44:46 - - - - - 2024-07-06 22:46:59 - Analyst:
+2024-07-06 22:44:46 - - - - - 2024-07-06 22:46:59 - {
+    "target": ["Email sent status"]
+}
+2024-07-06 22:44:46 - - - - - 2024-07-06 22:46:59 - Info: Observer observes image ./RQ2/27/drive/0_SoM_rule.png
+2024-07-06 22:44:46 - - - - - 2024-07-06 22:47:05 - Observer:
+2024-07-06 22:44:46 - - - - - 2024-07-06 22:47:05 - {
+    "Page Type": "Email inbox page displaying a list of received emails",
+    "Widgets": []
+}
+2024-07-06 22:44:49 - - - - - 2024-07-06 22:47:05 - Info: Observer observes image ./RQ2/27/drive/0.png
+2024-07-06 22:44:49 - - - - - 2024-07-06 22:47:12 - Observer:
+2024-07-06 22:44:49 - - - - - 2024-07-06 22:47:12 - {
+    "Page Information": {
+        "Email sent status": ["invisible"]
+    }
+}
+2024-07-06 22:44:49 - - - - - 2024-07-06 22:47:12 - Info: Observer observes image ./RQ2/27/drive/1_SoM_rule.png
+2024-07-06 22:44:50 - - - - - 2024-07-06 22:47:17 - Observer:
+2024-07-06 22:44:52 - - - - - 2024-07-06 22:47:17 - {
+    "Page Type": "Email composition page",
+    "Widgets": []
+}
+2024-07-06 22:44:52 - - - - - 2024-07-06 22:47:17 - Info: Observer observes image ./RQ2/27/drive/1.png
+2024-07-06 22:44:52 - - - - - 2024-07-06 22:47:20 - Observer:
+2024-07-06 22:44:52 - - - - - 2024-07-06 22:47:20 - {
+    "Page Information": {
+        "Email sent status": ["invisible"]
+    }
+}
+2024-07-06 22:44:53 - - - - - 2024-07-06 22:47:20 - Info: Observer observes image ./RQ2/27/drive/2_SoM_rule.png
+2024-07-06 22:44:54 - - - - - 2024-07-06 22:47:25 - Observer:
+2024-07-06 22:44:54 - - - - - 2024-07-06 22:47:25 - {
+    "Page Type": "Email composition page",
+    "Widgets": []
+}
+2024-07-06 22:44:55 - - - - - 2024-07-06 22:47:25 - Info: Observer observes image ./RQ2/27/drive/2.png
+2024-07-06 22:44:55 - - - - - 2024-07-06 22:47:29 - Observer:
+2024-07-06 22:44:55 - - - - - 2024-07-06 22:47:29 - {
+    "Page Information": {
+        "Email sent status": ["invisible"]
+    }
+}
+2024-07-06 22:44:59 - - - - - 2024-07-06 22:47:29 - Info: Observer observes image ./RQ2/27/drive/3_SoM_rule.png
+2024-07-06 22:44:59 - - - - - 2024-07-06 22:47:35 - Observer:
+2024-07-06 22:44:59 - - - - - 2024-07-06 22:47:35 - {
+    "Page Type": "Email composition page where users can draft and send emails",
+    "Widgets": [2]
+}
+2024-07-06 22:44:59 - - - - - 2024-07-06 22:47:35 - Info: Observer observes image ./RQ2/27/test/Task3.Page3.Widget0.png
+2024-07-06 22:44:59 - - - - - 2024-07-06 22:47:38 - Observer:
+2024-07-06 22:45:02 - - - - - 2024-07-06 22:47:38 - {
+  "name": "send button",
+  "description": "The widget is a button with a triangular 'play' icon, used to send the email. Email sent status is indicated after pressing this button."
+}
+2024-07-06 22:45:02 - - - - - 2024-07-06 22:47:38 - Info: Observer observes image ./RQ2/27/drive/3.png
+2024-07-06 22:45:02 - - - - - 2024-07-06 22:47:43 - Observer:
+2024-07-06 22:45:02 - - - - - 2024-07-06 22:47:43 - {
+    "Page Information": {
+        "Email sent status": ["invisible"]
+    }
+}
+2024-07-06 22:45:02 - - - - - 2024-07-06 22:47:43 - Info: Observer observes image ./RQ2/27/drive/4_SoM_rule.png
+2024-07-06 22:45:06 - - - - - 2024-07-06 22:47:46 - Observer:
+2024-07-06 22:45:06 - - - - - 2024-07-06 22:47:46 - {
+    "Page Type": "Email composition page",
+    "Widgets": []
+}
+2024-07-06 22:45:06 - - - - - 2024-07-06 22:47:46 - Info: Observer observes image ./RQ2/27/drive/4.png
+2024-07-06 22:45:06 - - - - - 2024-07-06 22:47:50 - Observer:
+2024-07-06 22:45:07 - - - - - 2024-07-06 22:47:50 - {
+    "Page Information": {
+        "Email sent status": ["invisible"]
+    }
+}
+2024-07-06 22:45:15 - - - - - 2024-07-06 22:47:50 - Info: Observer observes image ./RQ2/27/drive/5_SoM_rule.png
+2024-07-06 22:45:15 - - - - - 2024-07-06 22:47:57 - Observer:
+2024-07-06 22:45:15 - - - - - 2024-07-06 22:47:57 - {
+    "Page Type": "This is the main inbox page of an email application, displaying a list of received emails.",
+    "Widgets": []
+}
+2024-07-06 22:45:15 - - - - - 2024-07-06 22:47:57 - Info: Observer observes image ./RQ2/27/drive/5.png
+2024-07-06 22:45:17 - - - - - 2024-07-06 22:48:02 - Observer:
+2024-07-06 22:45:17 - - - - - 2024-07-06 22:48:02 - {
+    "Page Information": {
+        "Email sent status": ["Sent"]
+    }
+}
+2024-07-06 22:45:17 - - - - - 2024-07-06 22:48:02 - Info: TestTaskChecker is checking the extracted information
+2024-07-06 22:45:17 - - - - - 2024-07-06 22:48:05 - TestTaskChecker:
+2024-07-06 22:45:19 - - - - - 2024-07-06 22:48:05 - {
+    "judgement": "Yes",
+    "reason": "After the user tapped on the 'Send' button on the email composition page (Action 4), the application navigated back to the main inbox page (Page 5). On this page, the 'Email sent status' is indicated as 'Sent', confirming that the email was successfully sent after clicking the send button."
+}

@@ -43,15 +43,14 @@ To enhance the performance of LLM-based agents in the domain-specific area of UI
 ### Using AUITestAgent in Meituan 
 #### Task: View the rating of the first scenic spot in the scenic view, check whether its rating is consistent
 
-![demo1_video](assets/demo1.mp4)
+https://github.com/user-attachments/assets/48341d06-bc05-4b71-accd-c8a1c7215834
 
 ![demo1](assets/demo1.png)
-
 
 ### Using AUITestAgent in Facebook
 #### Task: Send a post with content 'Hello everyone' and like it, check whether it is correctly displayed, and whether the like button turns blue
 
-![demo2_video](assets/demo2.mp4)
+https://github.com/user-attachments/assets/501cd67e-8277-41c3-952a-3e77daa0c909
 
 ![demo2](assets/demo2.png)
 
@@ -91,3 +90,4 @@ todo
 
 ## 🧑 Team introduction
 
+AUITestAgent is joint work from [Prof. Zhou’s team](https://appsrv.cse.cuhk.edu.hk/~yfzhou/) at Fudan University and the Meituan In-Store R&D platform. We have long been dedicated to the field of AI for full-stack front-end technology. In addition to AUITestAgent, we have developed several other technological innovations, including [vision-ui](https://github.com/Meituan-Dianping/vision-ui), [Appaction](https://dl.acm.org/doi/10.1145/3611643.3613885) and [AutoConsis](https://dl.acm.org/doi/abs/10.1145/3639477.3639748).

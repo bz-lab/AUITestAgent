@@ -7,7 +7,14 @@
 </div>
 
 <div align="center">
-Yongxiang Hu<sup>1</sup>, Xuan Wang<sup>1</sup>, Yingchuan Wang<sup>1</sup>, Yu Zhang<sup>2</sup>, Shiyu Guo<sup>2</sup>, Chaoyi Chen<sup>2</sup>, Xin Wang<sup>1,3</sup> and Yangfan Zhou<sup>1,3</sup>
+  <a href="https://github.com/Gootter12">Yongxiang Hu<sup>1</sup></a>, 
+  <a href="https://github.com/TSKGHS17">Xuan Wang<sup>1</sup></a>, 
+  <a href="https://github.com/xieeryihe">Yingchuan Wang<sup>1</sup></a>, 
+  <a href="https://github.com/RainPot">Yu Zhang<sup>2</sup></a>, 
+  <a href="https://github.com/whiteguo233">Shiyu Guo<sup>2</sup></a>, 
+  <a href="https://github.com/chenchaoyi">Chaoyi Chen<sup>2</sup></a>, 
+  <a href="https://cs.fudan.edu.cn/3f/7e/c25906a278398/page.htm">Xin Wang<sup>1,3</sup></a> and 
+  <a href="https://cs.fudan.edu.cn/3f/a9/c25909a278441/page.htm">Yangfan Zhou<sup>1,3</sup></a>
 
 <br>
 
@@ -23,7 +30,7 @@ Yongxiang Hu<sup>1</sup>, Xuan Wang<sup>1</sup>, Yingchuan Wang<sup>1</sup>, Yu 
 
 ## 🌟 Introduction
 
-AUITestAgent is a LLM-based multi-agent framework for automatically perform natural language-driven GUI functional bug testing. It takes test requirements written in natural language as input, generates and conducts UI interactions, and verifies whether the UI response aligns with the expectations outlined in the requirements.
+AUITestAgent is the first LLM-based multi-agent framework for automatically perform natural language-driven GUI functional bug testing. It takes test requirements written in natural language as input, generates and conducts UI interactions, and verifies whether the UI response aligns with the expectations outlined in the requirements.
 
 ![overview](assets/overview.png)
 
@@ -34,6 +41,7 @@ To enhance the performance of LLM-based agents in the domain-specific area of UI
 ## 📺 Demo
 
 ### Using AUITestAgent in Meituan 
+#### Task: View the rating of the first scenic spot in the scenic view, check whether its rating is consistent
 
 todo: video
 
@@ -41,6 +49,7 @@ todo: video
 
 
 ### Using AUITestAgent in Facebook
+#### Task: Send a post with content 'Hello everyone' and like it, check whether it is correctly displayed, and whether the like button turns blue
 
 todo: video
 
@@ -56,7 +65,9 @@ Furthermore, unseen bugs detected from Meituan show the practical benefits of us
 
 For detail information, please refer to the [evalution results](evaluation_results/evaluation.md).
 
-### GUI Interactions translation
+### GUI Interaction
+
+We categorize the GUI interaction tasks into three difficulty levels, from easy to difficult, L1, L2, L3. For detail information, please refer to the [interaction benchmark](interaction.md).
 
 ![interaction result](assets/interaction.png)
 
@@ -67,9 +78,16 @@ Baseline:
 
 ### Function Verification
 
+For detail results, please refer to the [verification benchmark](verification.md).
+
 ![verification result](assets/verification.png)
+
+Since AUITestAgent is the **first** to focus on natural language driven GUI function verification and there are no existing studies in this field, we constructed a verification method based on multi-turn dialogue using **GPT-4o as a baseline**.
 
 ## 📚 Citation
 ```bib
 todo
 ```
+
+## 🧑 Team introduction
+

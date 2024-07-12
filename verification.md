@@ -6,8 +6,7 @@
 
 ## Verification Tasks
 
-The tasks includes 20 test oracles, with each oracle associated with two interaction traces,
-one correct and one incorrect(manually injected anamaly).
+The tasks includes 20 test oracles, with each oracle associated with two interaction traces, one correct and one incorrect(manually injected anomaly).
 
 | **App**           |      | **Interaction Tasks**                                                 | **Test Oracles**                                                 | **Anomaly**                           | **Number of Verification Points** |
 | ----------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ | -------------- |

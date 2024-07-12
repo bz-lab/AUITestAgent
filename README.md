@@ -25,7 +25,7 @@ Yongxiang Hu<sup>1</sup>, Xuan Wang<sup>1</sup>, Yingchuan Wang<sup>1</sup>, Yu 
 
 AUITestAgent is a LLM-based multi-agent framework for automatically perform natural language-driven GUI functional bug testing. It takes test requirements written in natural language as input, generates and conducts UI interactions, and verifies whether the UI response aligns with the expectations outlined in the requirements.
 
-![overview](assets/overview.png)
+<center><img src="assets/overview.png" width="90%" height="90%" /></center>
 
 To enhance the performance of LLM-based agents in the domain-specific area of UI testing, AUITestAgent decouples GUI interaction and function verification into two separate modules, performing verification after interaction.
 

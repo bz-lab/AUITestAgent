@@ -2,7 +2,7 @@
 
 ## Categories of Test Oracles
 
-![verification tasks](assets/verification_task.png)
+<center><img src="assets/verification_task.png" width="90%" height="90%" /></center>
 
 ## Verification Tasks
 

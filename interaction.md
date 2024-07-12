@@ -4,7 +4,7 @@
 
 We assessed the difficulty level from two perspectives: the ideal number of interaction steps $𝑆𝑡𝑒𝑝_{𝑖𝑑𝑒𝑎𝑙}$ and the vagueness of the requirements (i.e., metric $𝑆𝑐𝑜𝑟𝑒_{vag}$ is defined as the ideal number of interaction steps $𝑆𝑡𝑒𝑝_{𝑖𝑑𝑒𝑎𝑙}$ divided by the number of interaction commands in the requirements)
 
-![interaction task level](assets/interaction_task.png)
+<center><img src="assets/interaction_task.png" width="90%" height="90%" /></center>
 
 ## Tasks
 Here are 30 tasks we used to measure the interaction capability of AUITestAgent on 8 different Android apps.

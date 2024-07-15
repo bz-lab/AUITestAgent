@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-<a>arxiv link here</a>
+<a href='https://arxiv.org/abs/2407.09018'><img src='https://img.shields.io/badge/arxiv-2407.09018-b31b1b.svg'></a>
 </div>
 
 <div align="center">
@@ -84,7 +84,14 @@ Since AUITestAgent is the **first** to focus on natural language driven GUI func
 
 ## 📚 Citation
 ```bib
-todo
+@misc{hu2024auitestagent,
+      title={AUITestAgent: Automatic Requirements Oriented GUI Function Testing}, 
+      author={Yongxiang Hu and Xuan Wang and Yingchuan Wang and Yu Zhang and Shiyu Guo and Chaoyi Chen and Xin Wang and Yangfan Zhou},
+      year={2024},
+      eprint={2407.09018},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
 ```
 
 ## 🧑 Team introduction

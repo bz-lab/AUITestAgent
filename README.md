@@ -34,9 +34,9 @@ AUITestAgent is the first automatic, natural language-driven GUI testing tool fo
 
 ![overview](assets/overview.png)
 
-To enhance the performance of LLM-based agents in the domain-specific area of UI testing, AUITestAgent decouples GUI interaction and function verification into two separate modules, performing verification after interaction.
+To enhance the performance of LLM-based agents in the domain-specific area of UI testing, AUITestAgent decouples GUI interaction and function verification into two separate modules, performing verification after the interaction.
 
- In terms of implementation, AUITestAgent extracts GUI interactions from test requirements using dynamically organized agents to tackle the diversity of requirement expressions. Then, a multi-dimensional data extraction strategy is employed to retrieve data relevant to the test requirements from the interaction trace and performs verification.
+ In terms of implementation, AUITestAgent extracts GUI interactions from test requirements using dynamically organized agents to tackle the diversity of requirement expressions. Then, a multi-dimensional data extraction strategy is employed to retrieve data relevant to the test requirements from the interaction trace and perform verification.
 
 ## 📺 Demo
 
@@ -83,6 +83,8 @@ For detail results, please refer to the [verification benchmark](verification.md
 Since AUITestAgent is the **first** to focus on natural language driven GUI function verification and there are no existing studies in this field, we constructed a verification method based on multi-turn dialogue using **GPT-4o as a baseline**.
 
 ## 📚 Citation
+If you find this work helpful to your research, please kindly consider citing our paper.
+
 ```bib
 @misc{hu2024auitestagent,
       title={AUITestAgent: Automatic Requirements Oriented GUI Function Testing}, 

@@ -23,6 +23,10 @@
 <sup>3</sup>Shanghai Key Laboratory of Intelligent Information Processing, Shanghai, China
 </div>
 
+<div align="center">
+<a href="README.md">English</a> | <a href="README_zh.md">简体中文</a>
+</div>
+
 <!-- <div style="display: flex; justify-content: center; align-items: center;">
   <img src="assets/fudan.png" alt="Fudan University Logo" width="100" style="margin-right: 50px"/>
   <img src="assets/meituan.png" alt="Meituan Logo" width="100"/>

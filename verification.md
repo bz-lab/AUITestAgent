@@ -8,7 +8,7 @@
 
 The tasks includes 20 test oracles, with each oracle associated with two interaction traces, one correct and one incorrect(manually injected anomaly).
 
-*(During the verification evaluation process, our input is the test oracles. However, during actual operation, the input to AUITestAgent is the interaction tasks and test oracles, which are separated by the LLM.)*
+*(During the verification evaluation process, our input is the test oracles. However, during actual operation, the input to AUITestAgent is the original testing requirement, which are composed by the Task Decomposer.)*
 
 | **App**           |      | **Interaction Tasks**                                                 | **Test Oracles**                                                 | **Anomaly**                           | **Number of Verification Points** |
 | ----------------- | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ | -------------- |

@@ -59,15 +59,15 @@ https://github.com/user-attachments/assets/8c0a33ab-11ab-4f95-b767-678472e8d902
 
 ## 📝 实验
 
-我们使用两个自定义基准，[交互基准](interaction.md)和[校验基准](verification.md)，评估了AUITestAgent的性能。基准中包括8个广泛使用的商业应用（即美团、小红书、豆瓣、Facebook、Gmail、LinkedIn、Google Play和YouTube Music）。为了提供全面的评估，我们将交互任务的难度分为三个级别：简单（L1）、中等（L2）和困难（L3）。对于每个级别，我们构建了十个交互任务，中英文各半。
+我们使用两个自定义基准，[交互基准](interaction_zh.md)和[校验基准](verification_zh.md)，评估了AUITestAgent的性能。基准中包括8个广泛使用的商业应用（即美团、小红书、豆瓣、Facebook、Gmail、LinkedIn、Google Play和YouTube Music）。为了提供全面的评估，我们将交互任务的难度分为三个级别：简单（L1）、中等（L2）和困难（L3）。对于每个级别，我们构建了十个交互任务，中英文各半。
 
 我们的实验表明，AUITestAgent准确完成了100%的L1任务，在L2任务中完成了80%，在L3任务中完成了50%。此外，通过人工交互验证，AUITestAgent生成的交互中有94%与实际情况一致。这些指标表明，**AUITestAgent在将自然语言命令转换为GUI交互方面显著优于现有方法**。此外，AUITestAgent对注入的GUI功能错误的召回率达到90%，同时保持了仅4.5%的低误报率。AUITestAgent在美团中检测到新异常进一步展示了其在复杂商业应用GUI测试中的实际优势。
 
-有关详细信息，请参阅我们的论文和[评估结果](evaluation_results/evaluation.md)。
+有关详细信息，请参阅我们的论文和[评估结果](evaluation_results/evaluation_zh.md)。
 
-### UI驱动实验
+### UI交互实验
 
-有关详细信息，请参阅我们的[交互基准](interaction.md)。
+有关详细信息，请参阅我们的[交互基准](interaction_zh.md)。
 
 ![interaction result](assets/interaction.png)
 
@@ -78,7 +78,7 @@ https://github.com/user-attachments/assets/8c0a33ab-11ab-4f95-b767-678472e8d902
 
 ### 功能校验实验
 
-有关详细信息，请参阅我们的[校验基准](verification.md)。
+有关详细信息，请参阅我们的[校验基准](verification_zh.md)。
 
 ![verification result](assets/verification.png)
 

@@ -24,7 +24,7 @@
 </div>
 
 <div align="center">
-<a href="README.md">English</a> | <a href="README_zh.md">简体中文</a>
+<a href="README.md">English</a> | <a href="README_zh.md">简体中文</a> | <a href="README_ja.md">日本語</a>
 </div>
 
 <!-- <div style="display: flex; justify-content: center; align-items: center;">

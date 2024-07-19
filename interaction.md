@@ -1,5 +1,7 @@
 # Interaction Evaluation Benchmark
 
+You can view our evalution results [here](evaluation_results/evaluation.md).
+
 ## Difficulty Level
 
 We assessed the difficulty level from two perspectives: the ideal number of interaction steps $𝑆𝑡𝑒𝑝_{𝑖𝑑𝑒𝑎𝑙}$ and the vagueness of the requirements (i.e., metric $𝑆𝑐𝑜𝑟𝑒_{vag}$ is defined as the ideal number of interaction steps $𝑆𝑡𝑒𝑝_{𝑖𝑑𝑒𝑎𝑙}$ divided by the number of interaction commands in the requirements)

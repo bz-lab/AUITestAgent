@@ -1,5 +1,7 @@
 # 校验基准
 
+我们的校验实验结果参见[这里](evaluation_results/evaluation_zh.md)。
+
 ## 测试预言分类
 
 ![verification tasks](assets/verification_task.png)

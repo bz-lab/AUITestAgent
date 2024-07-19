@@ -1,5 +1,7 @@
 # Verification Evaluation Benchmark
 
+You can view our evalution results [here](evaluation_results/evaluation.md).
+
 ## Categories of Test Oracles
 
 ![verification tasks](assets/verification_task.png)
